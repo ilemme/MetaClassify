@@ -1,0 +1,3 @@
+gi-software-projekte-ws-2015.pdf  uniprot_sprot.fasta.gz  uniprot_sprot.tar.gz
+ilemme@cardiff:~/Downloads> md5sum -c uniprot_sprot.tar.gz 
+md5sum: uniprot_sprot.tar.gz: no properly formatted MD5 checksum lines found 

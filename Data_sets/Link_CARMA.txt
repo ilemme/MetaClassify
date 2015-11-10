@@ -1,0 +1,23 @@
+
+
+Dear WebCARMA user,
+
+We're sorry to inform you that the WebCARMA service is currently down until further notice. We will send email notifications to all registered users once the service is back online. Sorry for any inconvenience this may cause.
+
+Sincerely,
+
+The WebCARMA Team 
+
+
+
+
+Aus PAPER: Gerlach W, Stoye J : Taxonomic classification of metagenomic shotgun sequences with CARMA3
+
+For the evaluation of CARMA3 a synthetic and two real data sets were used.
+The synthetic metagenome (Supplementary Table S1) was constructed consisting
+of 25 randomly chosen bacterial genomes from the NCBI ftp site (ftp://ftp.ncbi.nih.gov/genomes/Bacteria/).
+N = 25 000 metagenomic reads were simulated using MetaSim (17) with the default
+454 sequencing error model resulting in an average read length of 265 bp. 
+The real data set used in Experiment 3 consists of over 600 000 unassembled
+reads from a biogas plant microbial community (18). The reads were obtained 
+by 454 sequencing and have an average length of 230 bp.

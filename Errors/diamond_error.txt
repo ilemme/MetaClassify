@@ -1,0 +1,24 @@
+...failed updating 2 targets...
+...skipped 6 targets...
+...updated 11469 targets...
+mbriem@sylt:/work/gi/software/diamond-v0.7.9/diamond-master/src> make
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_encoding.o algo/blast/core/blast_encoding.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_stat.o algo/blast/core/blast_stat.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_filter.o algo/blast/core/blast_filter.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_util.o algo/blast/core/blast_util.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_message.o algo/blast/core/blast_message.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/ncbi_erf.o algo/blast/core/ncbi_erf.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_options.o algo/blast/core/blast_options.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/ncbi_math.o algo/blast/core/ncbi_math.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_program.o algo/blast/core/blast_program.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/ncbi_std.o algo/blast/core/ncbi_std.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_psi_priv.o algo/blast/core/blast_psi_priv.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/raw_scoremat.o algo/blast/core/raw_scoremat.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_query_info.o algo/blast/core/blast_query_info.c
+gcc -O3 -DNDEBUG -c -o algo/blast/core/blast_seg.o algo/blast/core/blast_seg.c
+g++ -O3 -DNDEBUG -Iboost/include -Wall -Wno-uninitialized -march=native -c -o main.o main.cpp
+g++ -O3 -DNDEBUG -Iboost/include -Wall -Wno-uninitialized -march=native -c -o basic/options.o basic/options.cpp
+g++ -O3 -DNDEBUG -Iboost/include -Wall -Wno-uninitialized -march=native -c -o util/tinythread.o util/tinythread.cpp
+g++ -o ../bin/diamond algo/blast/core/blast_encoding.o algo/blast/core/blast_stat.o algo/blast/core/blast_filter.o algo/blast/core/blast_util.o algo/blast/core/blast_message.o algo/blast/core/ncbi_erf.o algo/blast/core/blast_options.o algo/blast/core/ncbi_math.o algo/blast/core/blast_program.o algo/blast/core/ncbi_std.o algo/blast/core/blast_psi_priv.o algo/blast/core/raw_scoremat.o algo/blast/core/blast_query_info.o algo/blast/core/blast_seg.o main.o basic/options.o util/tinythread.o boost/lib/libboost_thread.a boost/lib/libboost_system.a boost/lib/libboost_timer.a boost/lib/libboost_chrono.a boost/lib/libboost_iostreams.a boost/lib/libboost_program_options.a -lpthread -lz -lrt
+g++: error: boost/lib/libboost_iostreams.a: No such file or directory
+make: *** [diamond] Error 1
