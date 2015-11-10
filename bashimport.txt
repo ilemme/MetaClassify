@@ -1,0 +1,11 @@
+export PATH=$PATH:/work/gi/software/bin/
+export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
+export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
+
+alias MC='cd /work/gi/studprj/metaclassify'
+alias DB='cd /scratch/gi/studprj/metaclassify/data_base'
+alias DS='cd /scratch/gi/studprj/metaclassify/data_sets'
+alias MDL='cd /scratch/gi/studprj/metaclassify/UProCModel'
+alias SFTWR='cd /work/gi/software'
+
+alias schmod='/work/gi/studprj/metaclassify/run_chmod.sh'
