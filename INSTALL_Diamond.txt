@@ -1,0 +1,5 @@
+git clone https://github.com/bbuchfink/diamond.git
+cd diamond
+mkdir build
+cmake -DCMAKE_INSTALL_PREFIX=$/work/gi/software/diamond
+make install 

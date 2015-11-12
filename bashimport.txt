@@ -2,6 +2,11 @@ export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
 export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
 
+<<<<<<< HEAD
+export META=/work/gi/studprj/metaclassify
+
+=======
+>>>>>>> 4be86d0f79e574a63e5c810487423a7a377f310d
 alias MC='cd /work/gi/studprj/metaclassify'
 alias DB='cd /scratch/gi/studprj/metaclassify/data_base'
 alias DS='cd /scratch/gi/studprj/metaclassify/data_sets'

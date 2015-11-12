@@ -1,0 +1,3 @@
+Anfragesequenz		Datenbanksequenz	100	Laenge des Alignments	0	0	100	2	Basenpaaranfangbeginnalignment		Endedalignments		E-Value
+
+AS: bitScore, ZR: rawScore, ZE: expected, ZI: percent identity, ZL: reference length, ZF: frame, ZS: query start DNA coordinate\n

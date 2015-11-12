@@ -1,0 +1,9 @@
+cmake -DCMAKE_INSTALL_PREFIX=$/work/gi/software  
+
+
+-- Configuring lambda                                                                                                                                         
+CMake Error at src/CMakeLists.txt:50 (message):                                                                                                               
+  Your GCC version is too old.  Minimum version is GCC-4.9.1!                                                                                                 
+                                                                                                                                                              
+                                                                                                                                                              
+-- Configuring incomplete, errors occurred! 
