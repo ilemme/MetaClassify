@@ -1,0 +1,27 @@
+/scratch/gi/studprj/metaclassify//data_sets/FACS
+
+"Agrobacterium tumefaciens
+"Alcanivorax borkumensis
+"Anabaena variabilis
+"Archaeoglobus fulgidus
+"Bdellovibrio bacteriovorus
+"Bombyx mori
+"Buchnera aphidicola
+"Campylobacter jejuni
+"Candidatus Blochmannia
+"Clostridium acetobutylicum
+"Escherichia coli
+"Francisella tularensis
+"Human adenovirus
+"Human papillomavirus
+"Lactococcus lactis
+"Methanoculleus marisnigri
+"NC_000008 Homo
+"NC_000021 Homo
+"Nitrosomonas europaea
+"Pasteurella multocida
+"Pseudomonas aeruginosa
+"Pseudomonas entomophila
+"Pseudomonas fluorescens
+"Streptomyces coelicolor
+"Sulfolobus tokodaii

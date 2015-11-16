@@ -1,0 +1,27 @@
+/scratch/gi/studprj/metaclassify//data_sets/Carma
+
+"Aliivibrio salmonicida
+"Bdellovibrio bacteriovorus
+"Brucella melitensis
+"Burkholderia mallei
+"Burkholderia multivorans
+"Chlamydia trachomatis
+"Clostridium phytofermentans
+"Colwellia psychrerythraea
+"Cyanothece sp.
+"Escherichia coli
+"Haemophilus parasuis
+"Helicobacter pylori
+"Mycobacterium abscessus
+"Orientia tsutsugamushi
+"Pseudomonas aeruginosa
+"Rhodopseudomonas palustris
+"Shigella boydii
+"Sinorhizobium meliloti
+"Staphylococcus aureus
+"Staphylococcus epidermidis
+"Streptococcus pneumoniae
+"Sulfurovum sp.
+"Synechococcus sp.
+"Vibrio cholerae
+"Vibrio parahaemolyticus
