@@ -2,6 +2,8 @@
 \usepackage{graphicx}
 \usepackage{color}
 \begin{document}
+\begin{flushleft}
+
 
 %Alles zu UproC
 \section{UproC}
@@ -21,7 +23,9 @@
 \textbf{7.} predicted protein family\linebreak
 \textbf{8.} classification score
 \linebreak\linebreak
-ORF = open reading frame
+ORF = open reading frame\linebreak\linebreak
+Befehl mit dem die Anzahl der 'classified'/'unclassified'/'total' Sequenzen:
+\color{red}uproc-dna -o filename.txt -f ... \color{black} ausgegeben werden.
 \end{flushleft}
 \newpage
 
@@ -46,6 +50,10 @@ ORF = open reading frame
 \textbf{11.} e-value\linebreak
 \textbf{12.} bit-score
 \end{flushleft}
+
+Befehl mit dem die 'total time'/'mapping time'/'matches'/'final matches':
+\color{red}diamond ... --log \color{black} ausgegeben werden.
+
 \newpage
 
 %Alles zu Lambda
@@ -67,13 +75,16 @@ ORF = open reading frame
 \textbf{9.} start of alignment in subject\linebreak
 \textbf{10.} end of alignment in subject\linebreak
 \textbf{11.} e-value\linebreak
-\textbf{12.} bit-score
+\textbf{12.} bit-score\linebreak
+\linebreak
+Befehl mit dem die 'matches'/'running time'/...:
+\color{red}lambda -v [0-2] ... \color{black} ausgegeben werden.
 \end{flushleft}
 
 \section{Vergleich}
 
 Lamdba und Diamond stimmen in Ausgaben ueberein. UproC unterscheidet sich deutlich in dem was ausgegeben wird --$>$ kein Bezug auf die Vergleichssequenz.
 
-
+\end{flushleft}
 \end{document}
 

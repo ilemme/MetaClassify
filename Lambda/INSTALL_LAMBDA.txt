@@ -1,0 +1,5 @@
+git clone https://github.com/seqan/lambda.git
+cd lambda/
+mkdir build
+cmake -DCMAKE_C_COMPILER=/usr/local/zbhtools/gcc/gcc-5.1.0/bin/gcc -DCMAKE_CXX_COMPILER=/usr/local/zbhtools/gcc/gcc-5.1.0/bin/g++ -DCMAKE_INSTALL_PREFIX=$/work/gi/software
+make -j2

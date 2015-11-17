@@ -1,0 +1,12 @@
+Link fuer den Download von Diamond:
+
+https://github.com/bbuchfink/diamond/blob/master/README.rst
+
+Befehle:
+
+$ wget http://github.com/bbuchfink/diamond/releases/download/v0.7.9/diamond-linux64.tar.gz
+$ tar xzf diamond-linux64.tar.gz
+
+Link fuer den Download von Lambda:
+
+https://github.com/seqan/lambda/releases/tag/lambda-v0.9.1

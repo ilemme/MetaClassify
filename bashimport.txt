@@ -2,11 +2,22 @@ export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
 export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
 
+export MC='/work/gi/studprj/metaclassify'
+export SMC='/scratch/gi/studprj/metaclassify/'
+export DB='$/scratch/gi/studprj/metaclassify/data_base/'
+export DS='/scratch/gi/studprj/metaclassify/data_sets/'
+export RAI='/scratch/gi/studprj/metaclassify/data_sets/RAIphy/data/'
+export CAR='/scratch/gi/studprj/metaclassify/data_sets/Carma/data/'
+export MET='/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/data/'
+export FAC='/scratch/gi/studprj/metaclassify/data_sets/FACS/data/'
+export PHYM='/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/data/'
+export PHYL='/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/data/'
 
-alias MC='cd /work/gi/studprj/MetaClassify'
-alias DB='cd /scratch/gi/studprj/metaclassify/data_base'
-alias DS='cd /scratch/gi/studprj/metaclassify/data_sets'
-alias MDL='cd /scratch/gi/studprj/metaclassify/UProCModel'
-alias SW='cd /work/gi/software'
 
-alias schmod='/work/gi/studprj/MetaClassify/run_chmod.sh'
+alias cdMC="cd ${MC}"
+alias cdDB='cd ${SMC}/data_base'
+alias cdDS='cd ${SMC}/data_sets'
+alias cdMDL='cd ${SMC}/UProCModel'
+alias cdSW='cd /work/gi/software'
+
+alias schmod='/work/gi/studprj/metaclassify/bin/run_chmod.sh'

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.19)  10 NOV 2015 15:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.11.4)  17 NOV 2015 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**uproc.tex
-(./uproc.tex
+**Output.tex
+(./Output.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf/tex/latex/koma-script/scrartcl.cls
@@ -134,8 +134,8 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-) (./uproc.aux)
-\openout1 = `uproc.aux'.
+) (./Output.aux)
+\openout1 = `Output.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -218,19 +218,9 @@ e (type png)
 
 <use /work/gi/studprj/metaclassify/UproC/snapshot_output_uproc.png>
 Package pdftex.def Info: /work/gi/studprj/metaclassify/UproC/snapshot_output_up
-roc.png used on input line 10.
+roc.png used on input line 12.
 (pdftex.def)             Requested size: 292.7776pt x 209.34094pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-[1
+ [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} </work/gi/studprj/metacla
 ssify/UproC/snapshot_output_uproc.png>]
@@ -241,7 +231,7 @@ c file (type png)
 
 <use /work/gi/studprj/metaclassify/Diamond/snapshot1_output_diamond.png>
 Package pdftex.def Info: /work/gi/studprj/metaclassify/Diamond/snapshot1_output
-_diamond.png used on input line 32.
+_diamond.png used on input line 36.
 (pdftex.def)             Requested size: 292.7776pt x 164.19304pt.
 
 [2 </work/gi/studprj/metaclassify/Diamond/snapshot1_output_diamond.png>]
@@ -252,29 +242,29 @@ file (type png)
 
 <use /work/gi/studprj/metaclassify/Lambda/snapshot2_output_lambda.png>
 Package pdftex.def Info: /work/gi/studprj/metaclassify/Lambda/snapshot2_output_
-lambda.png used on input line 55.
+lambda.png used on input line 63.
 (pdftex.def)             Requested size: 292.7776pt x 140.70059pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 75.
+(Font)              <10.95> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
- [3 </work/gi/studprj/metaclassify/Lambda/snapshot2_output_lambda.png>] (./upro
-c.aux) ) 
+(Font)              <6> on input line 86.
+ [3 </work/gi/studprj/metaclassify/Lambda/snapshot2_output_lambda.png>] (./Outp
+ut.aux) ) 
 Here is how much of TeX's memory you used:
  2609 strings out of 493315
- 40008 string characters out of 6145892
+ 40017 string characters out of 6145893
  122111 words of memory out of 5000000
  6046 multiletter control sequences out of 15000+600000
  7874 words of font info for 28 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,7n,47p,240b,141s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
-/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
-mssbx10.pfb>
-Output written on uproc.pdf (3 pages, 265077 bytes).
+ 47i,7n,47p,241b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb>
+Output written on Output.pdf (3 pages, 266341 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
