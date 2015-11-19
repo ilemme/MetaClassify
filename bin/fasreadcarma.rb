@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+USAGE = "ruby #{$0} dataset_path output"
+
+if ARGV.length != 2
+  puts USAGE
+else
 path  = ARGV[0].to_s
 output= ARGV[1].to_s
 
@@ -8,7 +13,7 @@ output= ARGV[1].to_s
 
 Dir.foreach(path) do |fas|
   next if fas=='.' or fas=='..'
-  datei = File.open(path+"//"+fas, "r")
+  datei = File.open(path+"/"+fas, "r")
   input= datei.readlines
   datei.close
     input.each do |i|
@@ -31,3 +36,4 @@ fout.puts path
 fout.write("\n")
 fout.puts @names.sort
 fout.close
+end

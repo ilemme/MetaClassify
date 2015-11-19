@@ -1,0 +1,27 @@
+/scratch/gi/studprj/metaclassify/data_sets/FACS/data/
+
+159184118	Agrobacterium tumefaciens
+110832861	Alcanivorax borkumensis
+75906225	Anabaena variabilis
+11497621	Archaeoglobus fulgidus
+42521650	Bdellovibrio bacteriovorus
+9630816	Bombyx mori
+10957103	Buchnera aphidicola
+121612099	Campylobacter jejuni
+33519483	Candidatus Blochmannia
+15893298	Clostridium acetobutylicum
+170079663	Escherichia coli
+56707187	Francisella tularensis
+56160777	Human adenovirus
+9628566	Human papillomavirus
+116510843	Lactococcus lactis
+126177952	Methanoculleus marisnigri
+51511724	NC_000008 Homo
+51511750	NC_000021 Homo
+30248031	Nitrosomonas europaea
+15601865	Pasteurella multocida
+152983466	Pseudomonas aeruginosa
+104779316	Pseudomonas entomophila
+77456228	Pseudomonas fluorescens
+32141095	Streptomyces coelicolor
+24473558	Sulfolobus tokodaii

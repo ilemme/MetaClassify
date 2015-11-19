@@ -21,3 +21,5 @@ alias cdMDL='cd ${SMC}/UProCModel'
 alias cdSW='cd /work/gi/software'
 
 alias schmod='/work/gi/studprj/metaclassify/bin/run_chmod.sh'
+
+
