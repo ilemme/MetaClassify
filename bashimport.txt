@@ -2,9 +2,10 @@ export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
 export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
 
+
 export MC='/work/gi/studprj/metaclassify'
 export SMC='/scratch/gi/studprj/metaclassify/'
-export DB='$/scratch/gi/studprj/metaclassify/data_base/'
+export DB='/scratch/gi/studprj/metaclassify/data_base/'
 export DS='/scratch/gi/studprj/metaclassify/data_sets/'
 export RAI='/scratch/gi/studprj/metaclassify/data_sets/RAIphy/data/'
 export CAR='/scratch/gi/studprj/metaclassify/data_sets/Carma/data/'
@@ -12,6 +13,7 @@ export MET='/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/data/'
 export FAC='/scratch/gi/studprj/metaclassify/data_sets/FACS/data/'
 export PHYM='/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/data/'
 export PHYL='/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/data/'
+
 
 
 alias cdMC="cd ${MC}"

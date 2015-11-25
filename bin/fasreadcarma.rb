@@ -1,39 +1,50 @@
 #!/usr/bin/env ruby
 
 USAGE = "ruby #{$0} dataset_path output"
+#ERROR = "No Fasta-File found"
 
-if ARGV.length != 2
+if ARGV.length != 1
   puts USAGE
 else
 path  = ARGV[0].to_s
-output= ARGV[1].to_s
 
-@names=Array.new
-@n=0
 
-Dir.foreach(path) do |fas|
-  next if fas=='.' or fas=='..'
-  datei = File.open(path+"/"+fas, "r")
-  input= datei.readlines
-  datei.close
-    input.each do |i|
-      if i.match (/^(>|\s*$|\s*#)/)
-	i= i.split("SOURCE_1=")
-	i= i[1].split()
-	
-	name="#{i[0]} #{i[1]}"
-	name=name.gsub(/["]/,"")
-	if !@names.include? name
-	  @names[@n]= name
-	  @n= @n+1
-	end
+names=Array.new
+n=0
+fascount = 0
+
+begin
+  Dir.foreach(path) do |fasdata|
+    if fasdata.match(/(fna$|fasta$|fas$|faa$)/)
+      fascount += 1
+      begin
+        data = File.open(path+"/"+fasdata, "r")
+      rescue => err
+        STDERR.puts "Cannot open file #{fasdata}: #{err}"
+        exit 1
       end
-    end
+        data.each_line do |line|
+          if line.match (/^>/)
+            name = line.match (/[^\"]\w+\s\w+[^\"]*/)    # von " (w+ = jedes word, s leerzeichen, w+) bis " 
+            if !names.include? name
+              names[n]= name
+              n= n+1
+            end
+          end
+        end
+      end
+      data.close
   end
+  
+  if fascount == 0
+    puts "No fasta-file found"
+    exit 1
+  end
+rescue => err
+    STDERR.puts "Error accessing directory: #{err}"
+    exit 1    
+end
 
-fout = File.open(output, "w")
-fout.puts path
-fout.write("\n")
-fout.puts @names.sort
-fout.close
+puts names
+        
 end
