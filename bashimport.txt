@@ -1,8 +1,9 @@
 export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
-export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
+export PATH=$PATH:/work/gi/software/lambda/bin
 export PATH=$PATH:/work/gi/studprj/metaclassify/bin
 
+export LD_LIBRARY_PATH=/usr/local/zbhtools/gcc/gcc-5.1.0/lib64/
 
 
 export MC='/work/gi/studprj/metaclassify'

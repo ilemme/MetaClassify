@@ -1,0 +1,1146 @@
+NC_008387	Flavobacterium psychrophilum JIP02 86
+NC_009428	Salmonella enterica subsp. arizonae serovar 62 z4 z23    str. RSK2980
+NC_008011	Pyrococcus abyssi GE5
+NC_000913	Francisella tularensis subsp. holarctica LVS
+NC_006153	Yersinia pestis biovar Microtus str. 91001
+NC_007503	Marinobacter aquaeolei VT8
+NC_009930	Aeropyrum pernix K1
+NC_010501	Prochlorococcus marinus str. MIT 9313
+NC_010335	Phenylobacterium zucineum HLK1
+NC_003383	Sinorhizobium meliloti 1021
+NC_009036	Staphylococcus aureus subsp. aureus Mu50
+NC_010515	Burkholderia cenocepacia MC0 3
+NC_010180	Methylobacterium radiotolerans JCM 2831
+NC_010505	Methylacidiphilum infernorum V4
+NC_005835	Vibrio fischeri MJ11
+NC_008146	Frankia sp. CcI3
+NC_009379	Nitrosomonas eutropha C91
+NC_003317	Brucella melitensis bv. 1 str. 16M
+NC_007776	Salmonella enterica subsp. enterica serovar Typhi str. CT18
+NC_006831	Ehrlichia ruminantium str. Gardel
+NC_007426	Myxococcus xanthus DK 1622
+NC_008149	Xanthomonas campestris pv. vesicatoria str. 85 10
+NC_007880	Klebsiella pneumoniae 342
+NC_010287	Chlamydia trachomatis 434 Bu
+NC_010802	Burkholderia multivorans ATCC 17616
+NC_007949	Baumannia cicadellinicola str. Hc  Homalodisca coagulata 
+NC_002977	Herpetosiphon aurantiacus DSM 785
+NC_008705	Psychrobacter sp. PRwf 1
+NC_007508	Vibrio fischeri MJ11
+NC_010087	Burkholderia multivorans ATCC 17616
+NC_011072	Streptococcus thermophilus LMG 18311
+NC_007940	Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+NC_010322	Prochlorococcus marinus subsp. marinus str. CCMP1375
+NC_007973	Haloquadratum walsbyi DSM 16790
+NC_007511	Herminiimonas arsenicoxydans
+NC_007323	Bacillus anthracis str.  Ames Ancestor 
+NC_009004	Leptospira interrogans serovar Copenhageni str. Fiocruz L1 130
+NC_008702	Burkholderia thailandensis E264
+NC_011094	Staphylococcus aureus subsp. aureus JH9
+NC_010168	Cupriavidus taiwanensis LMG 19424
+NC_008531	Finegoldia magna ATCC 29328
+NC_009998	Staphylococcus aureus RF122
+NC_008228	Novosphingobium aromaticivorans DSM 12444
+NC_008607	Mesorhizobium loti MAFF303099
+NC_004669	Shewanella oneidensis MR 1
+NC_009801	Escherichia coli E24377A
+NC_008688	Saccharopolyspora erythraea NRRL 2338
+NC_010159	Treponema pallidum subsp. pallidum str. Nichols
+NC_009650	Leptospira biflexa serovar Patoc strain  Patoc 1  Paris  
+NC_010677	Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+NC_006526	Oceanobacillus iheyensis HTE831
+NC_009456	Acaryochloris marina MBIC11017
+NC_003212	Ruegeria pomeroyi DSS 3
+NC_009928	Aeromonas salmonicida subsp. salmonicida A449
+NC_009648	Leptospira biflexa serovar Patoc strain  Patoc 1  Ames  
+NC_010630	Hydrogenobaculum sp. Y04AAS1
+NC_000907	Lactobacillus casei BL23
+NC_007614	Clostridium acetobutylicum ATCC 824
+NC_005945	Bacillus anthracis str. Sterne
+NC_009469	Alkalilimnicola ehrlichii MLHE 1
+NC_009656	Rhizobium etli CFN 42
+NC_007651	Mycobacterium gilvum PYR GCK
+NC_005823	Mycoplasma hyopneumoniae 232
+NC_009708	Xylella fastidiosa 9a5c
+NC_009504	Roseobacter denitrificans OCh 114
+NC_007335	Rhizobium etli CFN 42
+NC_003037	Shewanella frigidimarina NCIMB 400
+NC_008555	Dinoroseobacter shibae DFL 12
+NC_011143	Mycobacterium marinum M
+NC_010373	Heliobacterium modesticaldum Ice1
+NC_010474	Bacillus weihenstephanensis KBAB4
+NC_007761	Rhizobium leguminosarum bv. viciae 3841
+NC_007650	Desulfotomaculum reducens MI 1
+NC_010645	Burkholderia ambifaria MC40 6
+NC_010163	Agrobacterium tumefaciens str. C58
+NC_009777	Sphingomonas wittichii RW1
+NC_010943	Streptococcus pyogenes MGAS6180
+NC_005956	Lactobacillus gasseri ATCC 33323
+NC_011025	Borrelia duttonii Ly
+NC_010610	Sulfurihydrogenibium sp. YO3AOP1
+NC_008529	Leptospira borgpetersenii serovar Hardjo bovis L550
+NC_010635	Xylella fastidiosa M23
+NC_004342	Mycoplasma hyopneumoniae J
+NC_010794	Dictyoglomus thermophilum H 6 12
+NC_000921	Lactococcus lactis subsp. cremoris SK11
+NC_003042	Clostridium perfringens str. 13
+NC_010118	Rickettsia typhi str. Wilmington
+NC_004347	Listeria innocua Clip11262
+NC_011003	Burkholderia cenocepacia J2315
+NC_008346	Kineococcus radiotolerans SRS30216
+NC_008700	Dinoroseobacter shibae DFL 12
+NC_011126	Candidatus Phytoplasma australiense
+NC_010680	Clostridium botulinum B str. Eklund 17B
+NC_003909	Bacillus cereus ATCC 10987
+NC_006582	Haloarcula marismortui ATCC 43049
+NC_008381	Rhodopseudomonas palustris HaA2
+NC_008025	Pyrococcus horikoshii OT3
+NC_003919	Herpetosiphon aurantiacus DSM 785
+NC_006396	Synechocystis sp. PCC 6803
+NC_009718	Borrelia afzelii PKo
+NC_011419	Haemophilus influenzae PittGG
+NC_009256	Campylobacter curvus 525.92
+NC_009253	Candidatus Carsonella ruddii PV
+NC_004829	Pasteurella multocida subsp. multocida str. Pm70
+NC_009881	Sulfurimonas denitrificans DSM 1251
+NC_007958	Salmonella enterica subsp. enterica serovar Newport str. SL254
+NC_006395	Synechocystis sp. PCC 6803
+NC_010488	Helicobacter pylori G27
+NC_009442	Yersinia pestis Antiqua
+NC_008243	Thermobifida fusca YX
+NC_002944	Orientia tsutsugamushi str. Ikeda
+NC_003047	Pelobacter propionicus DSM 2379
+NC_007484	Chlorobium tepidum TLS
+NC_010999	Leptospira biflexa serovar Patoc strain  Patoc 1  Paris  
+NC_008543	Burkholderia cenocepacia HI2424
+NC_007404	Synechococcus sp. JA 3 3Ab
+NC_009937	Candidatus Pelagibacter ubique HTCC1062
+NC_009426	Mycoplasma mycoides subsp. mycoides SC str. PG1
+NC_005241	Rhizobium etli CFN 42
+NC_010471	Burkholderia ambifaria MC40 6
+NC_009636	Sphingomonas wittichii RW1
+NC_009480	Clavibacter michiganensis subsp. michiganensis NCPPB 382
+NC_010622	Candidatus Amoebophilus asiaticus 5a2
+NC_005232	Shewanella sp. MR 7
+NC_008765	Anabaena variabilis ATCC 29413
+NC_010627	Pelodictyon phaeoclathratiforme BU 1
+NC_008319	Ochrobactrum anthropi ATCC 49188
+NC_008150	Xanthomonas oryzae pv. oryzae PXO99A
+NC_008379	Rhodopseudomonas palustris CGA009
+NC_007413	Azoarcus sp. BH72
+NC_008271	Nocardia farcinica IFM 10152
+NC_003030	Methanosphaera stadtmanae DSM 3091
+NC_010617	Halobacterium sp. NRC 1
+NC_006138	Desulfococcus oleovorans Hxd3
+NC_008533	Streptococcus thermophilus LMD 9
+NC_003062	Arcobacter butzleri RM4018
+NC_009515	Borrelia afzelii PKo
+NC_010483	Borrelia burgdorferi B31
+NC_004917	Thermococcus kodakarensis KOD1
+NC_011060	Campylobacter concisus 13826
+NC_009328	Brucella ovis ATCC 25840
+NC_008061	Burkholderia cenocepacia AU 1054
+NC_007516	Salinibacter ruber DSM 13855
+NC_010804	Burkholderia multivorans ATCC 17616
+NC_007947	Lawsonia intracellularis PHE MN1 00
+NC_011498	Legionella pneumophila str. Corby
+NC_010263	Salmonella enterica subsp. enterica serovar Typhi str. Ty2
+NC_009671	Nitrobacter hamburgensis X14
+NC_006933	Brucella abortus bv. 1 str. 9 941
+NC_011296	Mycoplasma genitalium G37
+NC_009882	Shewanella baltica OS155
+NC_010572	Nostoc punctiforme PCC 73102
+NC_009616	Burkholderia vietnamiensis G4
+NC_009621	Burkholderia vietnamiensis G4
+NC_003210	Mycobacterium tuberculosis H37Rv
+NC_004310	Brucella suis 1330
+NC_007530	Bacillus anthracis str.  Ames Ancestor 
+NC_007275	Rhizobium leguminosarum bv. trifolii WSM2304
+NC_010657	Staphylococcus aureus subsp. aureus MRSA252
+NC_005813	Tropheryma whipplei TW08 27
+NC_008435	Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+NC_009780	Streptomyces avermitilis MA 4680
+NC_010844	Pseudomonas putida KT2440
+NC_008120	Xanthomonas campestris pv. campestris str. 8004
+NC_008570	Anaplasma marginale str. St. Maries
+NC_009699	Clostridium botulinum F str. Langeland
+NC_009926	Aeromonas hydrophila subsp. hydrophila ATCC 7966
+NC_010530	Erwinia tasmaniensis Et1 99
+NC_009848	Methanocaldococcus jannaschii DSM 2661
+NC_010528	Erwinia tasmaniensis Et1 99
+NC_011229	Rickettsia massiliae MTU5
+NC_009040	Salmonella enterica subsp. enterica serovar Dublin str. CT 02021853
+NC_007513	Salmonella enterica subsp. enterica serovar Typhi str. CT18
+NC_007412	Arthrobacter aurescens TC1
+NC_009976	Pseudomonas syringae pv. tomato str. DC3000
+NC_003910	Xanthomonas axonopodis pv. citri str. 306
+NC_003131	Streptococcus pyogenes MGAS9429
+NC_005139	Acaryochloris marina MBIC11017
+NC_010085	Rickettsia felis URRWXCal2
+NC_010503	Burkholderia phymatum STM815
+NC_010698	Legionella pneumophila str. Paris
+NC_008390	Lactobacillus salivarius UCC118
+NC_001263	Caulobacter sp. K31
+NC_002578	Symbiobacterium thermophilum IAM 14863
+NC_007954	Cupriavidus metallidurans CH34
+NC_009879	Thermotoga maritima MSB8
+NC_008696	Ochrobactrum anthropi ATCC 49188
+NC_008277	Clostridium beijerinckii NCIMB 8052
+NC_002506	Legionella pneumophila str. Lens
+NC_006270	Bacillus licheniformis ATCC 14580
+NC_008686	Bradyrhizobium sp. ORS 278
+NC_002947	Prochlorococcus marinus subsp. pastoris str. CCMP1986
+NC_007507	Vibrio fischeri MJ11
+NC_005295	Ehrlichia ruminantium str. Welgevonden
+NC_009788	Escherichia coli E24377A
+NC_009464	Haloarcula marismortui ATCC 43049
+NC_010161	Cupriavidus taiwanensis LMG 19424
+NC_009436	Burkholderia ambifaria AMMD
+NC_010376	Bacillus weihenstephanensis KBAB4
+NC_008942	Clostridium thermocellum ATCC 27405
+NC_007798	Nanoarchaeum equitans Kin4 M
+NC_009053	Actinobacillus pleuropneumoniae serovar 5b str. L20
+NC_009227	Candidatus Vesicomyosocius okutanii HA
+NC_006086	Yersinia pseudotuberculosis IP 31758
+NC_011047	Halobacterium sp. NRC 1
+NC_009049	Salmonella enterica subsp. enterica serovar Enteritidis str. P125109
+NC_011145	Bradyrhizobium japonicum USDA 110
+NC_010676	Hahella chejuensis KCTC 2396
+NC_009012	Methanoculleus marisnigri JR1
+NC_011369	Rhodobacter sphaeroides ATCC 17029
+NC_008545	Burkholderia cenocepacia HI2424
+NC_008340	Arthrobacter sp. FB24
+NC_001869	Streptococcus gordonii str. Challis substr. CH1
+NC_010846	Mycobacterium bovis AF2122 97
+NC_009954	Bordetella avium 197N
+NC_011282	Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+NC_007333	Mycoplasma capricolum subsp. capricolum ATCC 27343
+NC_008786	Nocardioides sp. JS614
+NC_008757	Nocardioides sp. JS614
+NC_009455	Clostridium difficile 630
+NC_007296	Yersinia pseudotuberculosis YPIII
+NC_009634	Polaromonas sp. JS666
+NC_010380	Synechococcus elongatus PCC 6301
+NC_008380	Rhodopseudomonas palustris BisB5
+NC_011027	Chloroherpeton thalassium ATCC 35110
+NC_010682	Methanoregula boonei 6A8
+NC_008710	Halobacterium sp. NRC 1
+NC_008791	Vibrio harveyi ATCC BAA 1116
+NC_010407	Clavibacter michiganensis subsp. sepedonicus
+NC_006823	Candidatus Blochmannia floridanus
+NC_007778	Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU 12601
+NC_008761	Methylibium petroleiphilum PM1
+NC_004337	Stenotrophomonas maltophilia R551 3
+NC_007618	Brucella melitensis biovar Abortus 2308
+NC_007595	Yersinia pestis Pestoides F
+NC_000922	Chlamydophila pneumoniae CWL029
+NC_009051	Xanthobacter autotrophicus Py2
+NC_007762	Rhizobium leguminosarum bv. viciae 3841
+NC_003361	Candidatus Ruthia magnifica str. Cm  Calyptogena magnifica 
+NC_005072	Pseudomonas syringae pv. syringae B728a
+NC_010793	Pseudomonas fluorescens Pf 5
+NC_004041	Rhodobacter sphaeroides 2.4.1
+NC_007348	Rhizobium leguminosarum bv. viciae 3841
+NC_006393	Synechocystis sp. PCC 6803
+NC_002163	Campylobacter jejuni subsp. jejuni NCTC 11168
+NC_010371	Bacillus weihenstephanensis KBAB4
+NC_010468	Escherichia coli ATCC 8739
+NC_006365	Methanococcus maripaludis C7
+NC_006156	Verminephrobacter eiseniae EF01 2
+NC_008313	Rhizobium etli CFN 42
+NC_011375	Yersinia pestis Antiqua
+NC_009952	Methanopyrus kandleri AV19
+NC_008553	Dinoroseobacter shibae DFL 12
+NC_007492	Rhizobium etli CIAT 652
+NC_005140	Acaryochloris marina MBIC11017
+NC_005773	Rhizobium etli CIAT 652
+NC_009475	Shewanella putrefaciens CN 32
+NC_000918	Borrelia burgdorferi B31
+NC_011370	Rhodobacter sphaeroides ATCC 17025
+NC_001857	Chlamydophila abortus S26 3
+NC_007494	Salmonella enterica subsp. enterica serovar Choleraesuis str. SC B67
+NC_010175	Synechococcus sp. PCC 7002
+NC_002528	Buchnera aphidicola str. APS  Acyrthosiphon pisum 
+NC_009092	Bacillus amyloliquefaciens FZB42
+NC_005230	Shewanella sp. MR 4
+NC_006510	Gluconobacter oxydans 621H
+NC_010814	Burkholderia phymatum STM815
+NC_009749	Klebsiella pneumoniae 342
+NC_002505	Legionella pneumophila str. Lens
+NC_006360	Prochlorococcus marinus str. MIT 9312
+NC_010801	Burkholderia multivorans ATCC 17616
+NC_010673	Haloarcula marismortui ATCC 43049
+NC_010509	Mycoplasma arthritidis 158L3 1
+NC_007434	Burkholderia pseudomallei 1710b
+NC_007644	Onion yellows phytoplasma OY M
+NC_006824	Candidatus Blochmannia pennsylvanicus str. BPEN
+NC_011081	Shigella boydii Sb227
+NC_011146	Methylobacterium populi BJ001
+AC_000091	Vibrio cholerae O1 biovar El Tor str. N16961
+NC_010725	Thermoplasma volcanium GSS1
+NC_008392	Lactobacillus salivarius UCC118
+NC_008510	Pseudomonas putida W619
+NC_001855	Chlamydia muridarum Nigg
+NC_009377	Thermus thermophilus HB27
+NC_009566	Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842
+NC_010184	Candidatus Korarchaeum cryptofilum OPF8
+NC_009633	Arthrobacter sp. FB24
+NC_010996	Rhodobacter sphaeroides ATCC 17025
+NC_007520	Bordetella parapertussis 12822
+NC_009074	Burkholderia pseudomallei 668
+NC_005966	Aliivibrio salmonicida LFI1238
+NC_008122	Xanthomonas campestris pv. campestris str. ATCC 33913
+NC_009714	Thiomicrospira crunogena XCL 2
+NC_011147	Shigella flexneri 5 str. 8401
+NC_002758	Streptococcus pneumoniae G54
+NC_009943	Methylobacterium sp. 4 46
+NC_007794	Mycoplasma mobile 163K
+NC_009667	Burkholderia xenovorans LB400
+NC_002951	Streptococcus agalactiae 2603V R
+NC_009523	Synechococcus sp. CC9311
+NC_008530	Bacillus pumilus SAFR 032
+NC_011001	Burkholderia cenocepacia J2315
+NC_009786	Escherichia coli E24377A
+NC_009332	Yersinia pestis Angola
+NC_006834	Vibrio vulnificus CMCP6
+NC_010473	Francisella tularensis subsp. holarctica FTNF002 00
+NC_008760	Methylibium petroleiphilum PM1
+NC_009933	Agrobacterium tumefaciens str. C58
+NC_006392	Synechococcus sp. WH 8102
+NC_010740	Brucella abortus S19
+NC_003912	Campylobacter jejuni RM1221
+NC_003366	Clostridium perfringens str. 13
+NC_009425	Burkholderia ambifaria AMMD
+NC_011281	Leptospira biflexa serovar Patoc strain  Patoc 1  Ames  
+NC_007765	Rhodobacter sphaeroides 2.4.1
+NC_006856	Shewanella baltica OS155
+NC_010070	Burkholderia multivorans ATCC 17616
+NC_007146	Lactobacillus casei ATCC 334
+NC_008242	Saccharophagus degradans 2 40
+NC_007606	Magnetococcus sp. MC 1
+NC_009831	Methanococcoides burtonii DSM 6242
+NC_005070	Listeria welshimeri serovar 6b str. SLCC5334
+NC_010382	Streptococcus mutans UA159
+NC_008511	Mycobacterium tuberculosis CDC1551
+NC_005071	Pseudomonas syringae pv. tomato str. DC3000
+NC_005213	Photorhabdus luminescens subsp. laumondii TTO1
+NC_011186	Acidiphilium cryptum JF 5
+NC_002491	Chlamydophila pneumoniae J138
+NC_004567	Shigella sonnei Ss046
+NC_006512	Shigella dysenteriae Sd197
+NC_004557	Methylococcus capsulatus str. Bath
+NC_006348	Burkholderia mallei ATCC 23344
+NC_009009	Pyrobaculum calidifontis JCM 11548
+NC_008593	Bacteroides vulgatus ATCC 8482
+NC_007961	Mycobacterium sp. MCS
+NC_008698	Ochrobactrum anthropi ATCC 49188
+NC_009617	Polaromonas sp. JS666
+NC_008508	Mycobacterium tuberculosis F11
+NC_009494	Listeria monocytogenes serotype 4b str. F2365
+NC_007633	Candidatus Protochlamydia amoebophila UWE25
+NC_002677	Petrotoga mobilis SJ95
+NC_008610	Sinorhizobium medicae WSM419
+NC_008269	Nitrosospira multiformis ATCC 25196
+NC_010553	Nostoc punctiforme PCC 73102
+NC_007575	Ehrlichia canis str. Jake
+NC_008739	Caldicellulosiruptor saccharolyticus DSM 8903
+NC_009441	Hyphomonas neptunium ATCC 15444
+NC_008818	Pediococcus pentosaceus ATCC 25745
+NC_007796	Mycoplasma pneumoniae M129
+NC_008268	Nitrosomonas europaea ATCC 19718
+NC_003413	Rhodococcus jostii RHA1
+NC_008816	Pseudomonas syringae pv. phaseolicola 1448A
+NC_005363	Psychromonas ingrahamii 37
+NC_008342	Kineococcus radiotolerans SRS30216
+NC_010117	Coxiella burnetii RSA 331
+NC_008752	Aliivibrio salmonicida LFI1238
+NC_007510	Hyperthermus butylicus DSM 5456
+NC_011297	Salinispora arenicola CNS 205
+NC_009349	Aquifex aeolicus VF5
+NC_008701	Mesoplasma florum L1
+NC_009973	Bartonella tribocorum CIP 105476
+NC_010842	Mycobacterium avium subsp. paratuberculosis K 10
+NC_007713	Sulfolobus tokodaii str. 7
+NC_011205	Shigella boydii CDC 3083 94
+NC_009767	Wolbachia endosymbiont strain TRS of Brugia malayi
+NC_008609	Mesorhizobium loti MAFF303099
+NC_007410	Arthrobacter aurescens TC1
+NC_008835	Burkholderia mallei NCTC 10229
+NC_007204	Rhodoferax ferrireducens T118
+NC_007385	Ignicoccus hospitalis KIN4 I
+NC_010334	Leuconostoc citreum KM20
+NC_003902	Vibrio fischeri ES114
+NC_006363	Clostridium tetani E88
+NC_011333	Lactococcus lactis subsp. cremoris MG1363
+NC_011350	Haemophilus somnus 129PT
+NC_009230	Sulfurovum sp. NBC37 1
+NC_000915	Lactococcus lactis subsp. lactis Il1403
+NC_006462	Acinetobacter baumannii ATCC 17978
+NC_010611	Candidatus Koribacter versatilis Ellin345
+NC_008345	Mesorhizobium loti MAFF303099
+NC_010939	Actinobacillus pleuropneumoniae serovar 7 str. AP76
+NC_004116	Streptococcus pyogenes SSI 1
+NC_005791	Neisseria meningitidis Z2491
+NC_008783	Streptococcus sanguinis SK36
+NC_008043	Helicobacter acinonychis str. Sheeba
+NC_010555	Chlorobium limicola DSM 245
+NC_009511	Brucella ovis ATCC 25840
+NC_006677	Bartonella quintana str. Toulouse
+NC_010697	Borrelia recurrentis A1
+NC_007576	Ruegeria pomeroyi DSS 3
+NC_009337	Cytophaga hutchinsonii ATCC 33406
+NC_009229	Bradyrhizobium sp. BTAi1
+NC_010067	Shewanella baltica OS195
+NC_008769	Porphyromonas gingivalis ATCC 33277
+NC_009727	Coxiella burnetii Dugway 5J108 111
+NC_009507	Mycoplasma agalactiae PG2
+NC_009925	Acinetobacter sp. ADP1
+NC_004671	Geobacter metallireducens GS 15
+NC_008825	Salinispora tropica CNB 440
+NC_008598	Bacillus thuringiensis str. Al Hakam
+NC_007950	Lawsonia intracellularis PHE MN1 00
+NC_007298	Thermoanaerobacter sp. X514
+NC_004547	Geobacter sulfurreducens PCA
+NC_009466	Metallosphaera sedula DSM 5348
+NC_008009	Alteromonas macleodii str.  Deep ecotype 
+NC_008384	Rickettsia bellii OSU 85 389
+NC_007722	Sulfolobus acidocaldarius DSM 639
+NC_005707	Bacillus cereus ATCC 10987
+NC_003134	Streptococcus pyogenes str. Manfredo
+NC_009076	Burkholderia pseudomallei 1106a
+NC_010529	Beijerinckia indica subsp. indica ATCC 9039
+NC_008687	Synechococcus sp. WH 7803
+NC_006449	Yersinia pestis KIM 10
+NC_009446	Mycobacterium sp. JLS
+NC_007705	Vibrio vulnificus YJ016
+NC_007607	Lysinibacillus sphaericus C3 41
+NC_004368	Streptococcus suis 98HAH33
+NC_010002	Burkholderia ambifaria MC40 6
+NC_011083	Shigella flexneri 2a str. 301
+NC_007959	Chelativorans sp. BNC1
+NC_002932	Methanosarcina barkeri str. Fusaro
+NC_000868	Desulfitobacterium hafniense Y51
+NC_007336	Rhizobium leguminosarum bv. viciae 3841
+NC_011149	Shewanella baltica OS195
+NC_008254	Propionibacterium acnes KPA171202
+NC_010524	Candidatus Desulforudis audaxviator MP104C
+NC_009712	Thiobacillus denitrificans ATCC 25259
+NC_006840	Acholeplasma laidlawii PG 8A
+NC_007716	Borrelia garinii PBi
+NC_011035	Pseudomonas aeruginosa PAO1
+NC_005043	Chlamydophila pneumoniae TW 183
+NC_003997	Bacillus anthracis str. Ames
+NC_004838	Xanthomonas campestris pv. vesicatoria str. 85 10
+NC_004633	Rhizobium leguminosarum bv. viciae 3841
+NC_007482	Ehrlichia chaffeensis str. Arkansas
+NC_008086	Lactococcus lactis subsp. cremoris SK11
+NC_010679	Haloarcula marismortui ATCC 43049
+NC_009381	Thermus thermophilus HB8
+NC_009921	Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis
+NC_008759	Yersinia enterocolitica subsp. enterocolitica 8081
+NC_009007	Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150
+NC_009484	Alkaliphilus metalliredigens QYMF
+NC_010182	Methylobacterium radiotolerans JCM 2831
+NC_008712	Burkholderia sp. 383
+NC_008541	Nostoc sp. PCC 7120
+NC_006832	Ehrlichia ruminantium str. Welgevonden
+NC_008726	Dinoroseobacter shibae DFL 12
+NC_008528	Novosphingobium aromaticivorans DSM 12444
+NC_009706	Flavobacterium johnsoniae UW101
+NC_004572	Acinetobacter baumannii SDF
+NC_004061	Buchnera aphidicola str. Sg  Schizaphis graminum 
+NC_010581	Ralstonia pickettii 12J
+NC_008525	Dichelobacter nodosus VCS1703A
+NC_008537	Nostoc sp. PCC 7120
+NC_006351	Burkholderia pseudomallei K96243
+NC_010694	Borrelia recurrentis A1
+NC_010634	Xylella fastidiosa M12
+NC_005229	Methanosaeta thermophila PT
+NC_011247	Frankia sp. EAN1pec
+NC_009956	Ralstonia solanacearum GMI1000
+NC_010512	Burkholderia cenocepacia MC0 3
+NC_004631	Staphylococcus aureus subsp. aureus MW2
+NC_006905	Shewanella baltica OS185
+NC_008740	Thermosipho melanesiensis BI429
+NC_001988	Mycobacterium leprae TN
+NC_007766	Rhodobacter sphaeroides 2.4.1
+NC_007355	Halobacterium salinarum R1
+NC_008022	Yersinia pseudotuberculosis IP 32953
+NC_008513	Buchnera aphidicola str. Cc  Cinara cedri 
+NC_010513	Vibrio cholerae O395
+NC_011184	Acidithiobacillus ferrooxidans ATCC 53993
+NC_002953	Streptococcus pyogenes MGAS2096
+NC_008147	Thermodesulfovibrio yellowstonii DSM 11347
+NC_009430	Salmonella enterica subsp. enterica serovar Agona str. SL483
+NC_009784	Geobacillus thermodenitrificans NG80 2
+NC_004552	Halorhodospira halophila SL1
+NC_007907	Nitrosococcus oceani ATCC 19707
+NC_009615	Shewanella denitrificans OS217
+NC_004070	Yersinia pseudotuberculosis PB1  
+NC_010410	Acidovorax sp. JS42
+NC_003064	Anaeromyxobacter sp. Fw109 5
+NC_011415	Haemophilus influenzae 86 028NP
+NC_004606	Yersinia pestis Antiqua
+NC_006672	Bartonella henselae str. Houston 1
+NC_002696	Marinobacter aquaeolei VT8
+NC_008262	Clostridium perfringens SM101
+NC_009138	Lactobacillus brevis ATCC 367
+NC_002162	Acaryochloris marina MBIC11017
+NC_007604	Yersinia pestis Pestoides F
+NC_010547	Dechloromonas aromatica RCB
+NC_002946	Prochlorococcus marinus str. NATL2A
+NC_008781	Methanocorpusculum labreanum Z
+NC_007963	Rubrobacter xylanophilus DSM 9941
+NC_004719	Burkholderia phytofirmans PsJN
+NC_008787	Campylobacter jejuni subsp. jejuni 81 176
+NC_004431	Escherichia coli CFT073
+NC_010158	Xanthomonas oryzae pv. oryzae MAFF 311018
+NC_010498	Helicobacter pylori HPAG1
+NC_008767	Ralstonia eutropha H16
+NC_009669	Nitrobacter hamburgensis X14
+NC_009663	Pseudomonas mendocina ymp
+NC_007948	Psychrobacter cryohalolentis K5
+NC_006570	Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+NC_009997	Staphylococcus aureus subsp. aureus USA300 TCH1516
+NC_010632	Elusimicrobium minutum Pei191
+NC_003228	Bacteroides fragilis NCTC 9343
+NC_010830	Citrobacter koseri ATCC BAA 895
+NC_008820	Ralstonia eutropha JMP134
+NC_006361	Clostridium acetobutylicum ATCC 824
+NC_003267	Polaromonas naphthalenivorans CJ2
+NC_009782	Streptococcus pneumoniae D39
+NC_009443	Yersinia pestis KIM 10
+NC_010397	Corynebacterium urealyticum DSM 7109
+NC_009974	Bacillus weihenstephanensis KBAB4
+NC_009665	Staphylococcus aureus subsp. aureus str. Newman
+NC_009085	Acidovorax sp. JS42
+NC_011374	Acaryochloris marina MBIC11017
+NC_004460	Acaryochloris marina MBIC11017
+NC_005090	Natranaerobius thermophilus JW NM WN LF
+NC_010104	Rickettsia prowazekii str. Madrid E
+NC_010103	Rickettsia felis URRWXCal2
+NC_009654	Nitrobacter hamburgensis X14
+NC_008600	Bacillus thuringiensis str. Al Hakam
+NC_010520	Clostridium botulinum A3 str. Loch Maree
+NC_003112	Ralstonia eutropha H16
+NC_008703	Chlorobium phaeovibrioides DSM 265
+NC_004344	Pectobacterium atrosepticum SCRI1043
+NC_008347	Janthinobacterium sp. Marseille
+NC_007941	Helicobacter pylori P12
+NC_002662	Leptospira interrogans serovar Copenhageni str. Fiocruz L1 130
+NC_009800	Francisella tularensis subsp. tularensis WY96 3418
+NC_000961	Rhodococcus jostii RHA1
+NC_007972	Pseudoalteromonas haloplanktis TAC125
+NC_009838	Escherichia coli APEC O1
+NC_008532	Yersinia pestis Nepal516
+NC_007498	Pseudomonas entomophila L48
+NC_008383	Rhodopseudomonas palustris TIE 1
+NC_003078	Pelobacter propionicus DSM 2379
+NC_004668	Shewanella oneidensis MR 1
+NC_009674	Bacillus cytotoxicus NVH 391 98
+NC_008258	Yersinia pestis CO92
+NC_010551	Geobacter lovleyi SZ
+NC_009482	Ruegeria sp. TM1040
+NC_003273	Polaromonas naphthalenivorans CJ2
+NC_007801	Mycoplasma synoviae 53
+NC_009725	Trichodesmium erythraeum IMS101
+NC_009778	Streptomyces avermitilis MA 4680
+NC_009339	Paracoccus denitrificans PD1222
+NC_010404	Acidovorax sp. JS42
+NC_008576	Candidatus Sulcia muelleri GWSS
+NC_010424	Beijerinckia indica subsp. indica ATCC 9039
+NC_009033	Fervidobacterium nodosum Rt17 B1
+NC_009649	Leptospira biflexa serovar Patoc strain  Patoc 1  Ames  
+NC_006569	Pyrobaculum islandicum DSM 4184
+NC_007517	Bacillus halodurans C 125
+NC_009901	Treponema denticola ATCC 35405
+NC_007969	Psychrobacter arcticus 273 4
+NC_008564	Methanococcus vannielii SB
+NC_008766	Anabaena variabilis ATCC 29413
+NC_010162	Synechococcus sp. PCC 7002
+NC_010124	Mycobacterium abscessus ATCC 19977
+NC_011002	Burkholderia cenocepacia J2315
+NC_008245	Helicobacter pylori Shi470
+NC_008539	Nostoc sp. PCC 7120
+NC_009668	Syntrophus aciditrophicus SB
+NC_009226	Geobacter uraniireducens Rf4
+NC_002937	Desulfovibrio vulgaris str. Hildenborough
+NC_009437	Burkholderia vietnamiensis G4
+NC_008024	Yersinia pseudotuberculosis IP 31758
+NC_007760	Nostoc sp. PCC 7120
+NC_011368	Rhodobacter sphaeroides ATCC 17029
+NC_005126	Deinococcus radiodurans R1
+NC_009342	Corynebacterium glutamicum R
+NC_009089	Nitratiruptor sp. SB155 2
+NC_003143	Streptococcus pyogenes NZ131
+NC_010544	Thermoplasma acidophilum DSM 1728
+NC_009488	Pseudomonas aeruginosa UCBPP PA14
+NC_004461	Streptococcus pyogenes MGAS315
+NC_002620	Campylobacter fetus subsp. fetus 82 40
+NC_008048	Leifsonia xyli subsp. xyli str. CTCB07
+NC_005838	Acinetobacter baumannii ACICU
+NC_005957	Bacillus thuringiensis serovar konkukian str. 97 27
+NC_005042	Pseudomonas syringae pv. phaseolicola 1448A
+NC_008542	Burkholderia cenocepacia HI2424
+NC_003197	Lactobacillus plantarum WCFS1
+NC_007347	Rhizobium leguminosarum bv. viciae 3841
+NC_010554	Rickettsia canadensis str. McKiel
+NC_007964	Chelativorans sp. BNC1
+NC_006397	Thermoanaerobacter tengcongensis MB4
+NC_010606	Acidothermus cellulolyticus 11B
+NC_000956	Caulobacter crescentus CB15
+NC_010510	Chlorobaculum parvum NCIB 8327
+NC_006366	Methanococcus maripaludis C5
+NC_008382	Rickettsia bellii RML369 C
+NC_010366	Methylobacterium sp. 4 46
+NC_010571	Candidatus Phytoplasma mali
+NC_006842	Acidiphilium cryptum JF 5
+NC_009091	Ralstonia eutropha JMP134
+NC_009465	Polynucleobacter necessarius subsp. asymbioticus QLW P1DMWA 1
+NC_008565	Methanococcus aeolicus Nankai 3
+NC_008010	Oligotropha carboxidovorans OM5
+NC_003364	Rhodoferax ferrireducens T118
+NC_009717	Borrelia afzelii PKo
+NC_002971	Coxiella burnetii RSA 493
+NC_009637	Neisseria meningitidis MC58
+NC_007350	Rickettsia typhi str. Wilmington
+NC_003923	Streptococcus pneumoniae CGSP14
+NC_008596	Desulfotalea psychrophila LSv54
+NC_005824	Mycoplasma hyopneumoniae 7448
+NC_004193	Colwellia psychrerythraea 34H
+NC_009350	Archaeoglobus fulgidus DSM 4304
+NC_007168	Mycobacterium ulcerans Agy99
+NC_009715	Enterobacter sp. 638
+NC_003063	Aster yellows witches  broom phytoplasma AYWB
+NC_008554	Dinoroseobacter shibae DFL 12
+NC_003276	Polaromonas naphthalenivorans CJ2
+NC_008312	Serratia proteamaculans 568
+NC_004556	Vibrio vulnificus CMCP6
+NC_006139	Halobacterium salinarum R1
+NC_007802	Mycoplasma pulmonis UAB CTIP
+NC_009142	Mycobacterium sp. KMS
+NC_009959	Rhodospirillum rubrum ATCC 11170
+NC_008386	Parabacteroides distasonis ATCC 8503
+NC_009697	Clostridium botulinum A str. ATCC 19397
+NC_009832	Burkholderia xenovorans LB400
+NC_005810	Treponema pallidum subsp. pallidum SS14
+NC_009427	Mycoplasma penetrans HF 2
+NC_009839	Campylobacter jejuni subsp. jejuni 81116
+NC_009378	Thermus thermophilus HB8
+NC_011061	Cronobacter sakazakii ATCC BAA 894
+NC_007759	Chelativorans sp. BNC1
+NC_003384	Lactobacillus acidophilus NCFM
+NC_003450	Corynebacterium glutamicum ATCC 13032
+NC_003869	Shewanella sp. ANA 3
+NC_008800	Vibrio harveyi ATCC BAA 1116
+NC_010296	Delftia acidovorans SPH 1
+NC_009479	Clavibacter michiganensis subsp. michiganensis NCPPB 382
+NC_002754	Bacillus clausii KSM K16
+NC_009931	Agrobacterium tumefaciens str. C58
+NC_010338	Phenylobacterium zucineum HLK1
+NC_007763	Rhodobacter sphaeroides 2.4.1
+NC_010729	Pseudomonas fluorescens Pf0 1
+NC_003318	Brucella melitensis bv. 1 str. 16M
+NC_011413	Haemophilus influenzae Rd KW20
+NC_008378	Rhodopseudomonas palustris BisB18
+NC_009035	Staphylococcus aureus subsp. aureus Mu3
+NC_002976	Streptococcus pyogenes MGAS5005
+NC_008060	Burkholderia cenocepacia AU 1054
+NC_010545	Ralstonia pickettii 12J
+NC_009077	Methanobrevibacter smithii ATCC 35061
+NC_008505	Leptospira interrogans serovar Lai str. 56601
+NC_000919	Vibrio vulnificus YJ016
+NC_006530	Cupriavidus metallidurans CH34
+NC_009719	Vibrio parahaemolyticus RIMD 2210633
+NC_007414	Francisella tularensis subsp. tularensis SCHU S4
+NC_000912	Photobacterium profundum SS9
+NC_010516	Clostridium botulinum B1 str. Okra
+NC_006155	Yersinia pestis biovar Microtus str. 91001
+NC_002978	Geobacillus kaustophilus HTA426
+NC_005877	Jannaschia sp. CCS1
+NC_009329	Xanthobacter autotrophicus Py2
+NC_004663	Staphylococcus haemolyticus JCSC1435
+NC_009620	Burkholderia vietnamiensis G4
+NC_011026	Roseiflexus castenholzii DSM 13941
+NC_007295	Prochlorococcus marinus str. NATL1A
+NC_010525	Geobacter bemidjiensis Bem
+NC_004603	Enterococcus faecalis V583
+NC_007912	Moorella thermoacetica ATCC 39073
+NC_010169	Brucella suis ATCC 23445
+NC_007322	Bacillus anthracis str.  Ames Ancestor 
+NC_010631	Kocuria rhizophila DC2201
+NC_007613	Stenotrophomonas maltophilia K279a
+NC_006814	Shigella dysenteriae Sd197
+NC_002608	Sodalis glossinidius str.  morsitans 
+NC_008785	Burkholderia mallei SAVP1
+NC_009651	Leptospira biflexa serovar Patoc strain  Patoc 1  Paris  
+NC_007681	Herpetosiphon aurantiacus DSM 785
+NC_008741	Desulfovibrio vulgaris DP4
+NC_010519	Lactobacillus reuteri JCM 1112
+NC_009434	Nitrosomonas eutropha C91
+NC_008704	Roseiflexus sp. RS 1
+NC_009662	Frankia alni ACN14a
+NC_006087	Chlamydophila felis Fe C 56
+NC_007952	Deinococcus geothermalis DSM 11300
+NC_009792	Wolinella succinogenes DSM 1740
+NC_009999	Staphylococcus aureus subsp. aureus USA300 FPR3757
+NC_009929	Aeromonas salmonicida subsp. salmonicida A449
+NC_008054	Leptospira borgpetersenii serovar Hardjo bovis JB197
+NC_010475	Bacillus weihenstephanensis KBAB4
+NC_010506	Burkholderia phymatum STM815
+NC_004432	Chlorobium luteolum DSM 273
+NC_010803	Thermosynechococcus elongatus BP 1
+NC_009429	Salmonella enterica subsp. enterica serovar Agona str. SL483
+NC_008578	Anabaena variabilis ATCC 29413
+NC_009661	Staphylococcus aureus subsp. aureus NCTC 8325
+NC_007797	Bordetella pertussis Tohama I
+NC_006129	Chlamydophila caviae GPIC
+NC_008790	Campylobacter jejuni subsp. jejuni 81 176
+NC_008567	Shewanella sediminis HAW EB3
+NC_008341	Marinomonas sp. MWYL1
+NC_011144	Streptomyces griseus subsp. griseus NBRC 13350
+NC_005061	Mycobacterium gilvum PYR GCK
+NC_000917	Borrelia burgdorferi B31
+NC_008711	Burkholderia sp. 383
+NC_008321	Thermotoga lettingae TMO
+NC_002939	Bacillus subtilis subsp. subtilis str. 168
+NC_009525	Prochlorococcus marinus str. MIT 9301
+NC_009707	Campylobacter jejuni subsp. doylei 269.97
+NC_006511	Shewanella baltica OS185
+NC_007332	Prochlorococcus marinus str. MIT 9515
+NC_008817	Ralstonia eutropha JMP134
+NC_008463	Rhizobium etli CIAT 652
+NC_011283	Legionella pneumophila str. Paris
+NC_007974	Picrophilus torridus DSM 9790
+NC_007432	Streptococcus suis 05ZYH33
+NC_009635	Methylobacillus flagellatus KT
+NC_006576	Yersinia pestis Pestoides F
+NC_002973	Neisseria gonorrhoeae NCCP11945
+NC_000964	Sinorhizobium meliloti 1021
+NC_010609	Listeria monocytogenes EGD e
+NC_009776	Magnetospirillum magneticum AMB 1
+NC_009828	Rickettsia conorii str. Malish 7
+NC_008758	Yersinia enterocolitica subsp. enterocolitica 8081
+NC_009052	Staphylococcus aureus subsp. aureus N315
+NC_005303	Corynebacterium diphtheriae NCTC 13129
+NC_002950	Pseudomonas syringae pv. phaseolicola 1448A
+NC_003911	Granulibacter bethesdensis CGDNIH1
+NC_007509	Bartonella bacilliformis KC583
+NC_008738	Candidatus Solibacter usitatus Ellin6076
+NC_002695	Francisella tularensis subsp. mediasiatica FSC147
+NC_005955	Shewanella amazonensis SB2B
+NC_010577	Vibrio cholerae O395
+NC_010369	Gluconacetobacter diazotrophicus PAl 5
+NC_002570	Sinorhizobium meliloti 1021
+NC_010723	Clostridium botulinum E3 str. Alaska E43
+NC_008509	Mycobacterium tuberculosis H37Ra
+NC_006085	Zymomonas mobilis subsp. mobilis ZM4
+NC_010556	Geobacter lovleyi SZ
+NC_009802	Streptomyces coelicolor A3 2 
+NC_009486	Shewanella loihica PV 4
+NC_008265	Clostridium phage phiSM101
+NC_009454	Burkholderia vietnamiensis G4
+NC_009348	Anaplasma phagocytophilum HZ
+NC_007799	Natronomonas pharaonis DSM 2160
+NC_008095	Desulfotalea psychrophila LSv54
+NC_010815	Burkholderia phymatum STM815
+NC_010730	Proteus mirabilis HI4320
+NC_003888	Burkholderia phytofirmans PsJN
+NC_003028	Synechococcus elongatus PCC 7942
+NC_007297	Yersinia pseudotuberculosis PB1  
+NC_006394	Synechocystis sp. PCC 6803
+NC_002689	Synechococcus sp. CC9605
+NC_009953	Wolbachia endosymbiont of Drosophila melanogaster
+NC_003901	Halobacterium salinarum R1
+NC_003385	Lactobacillus johnsonii NCC 533
+NC_011204	Shigella boydii CDC 3083 94
+NC_007960	Mycobacterium sp. MCS
+NC_009720	Borrelia afzelii PKo
+NC_004545	Buchnera aphidicola str. Bp  Baizongia pistaciae 
+NC_010364	Leptothrix cholodnii SP 6
+NC_009228	Bradyrhizobium sp. BTAi1
+NC_010336	Polynucleobacter necessarius subsp. necessarius STIR1
+NC_005296	Salmonella enterica subsp. enterica serovar Newport str. SL254
+NC_006448	Yersinia pestis Nepal516
+NC_002488	Ureaplasma parvum serovar 3 str. ATCC 700970
+NC_006322	Bacillus licheniformis ATCC 14580
+NC_007103	Bacillus cereus E33L
+NC_007427	Mycobacterium smegmatis str. MC2 155
+NC_004343	Neisseria gonorrhoeae FA 1090
+NC_008544	Burkholderia cenocepacia HI2424
+NC_009440	Maricaulis maris MCS10
+NC_007493	Salmonella enterica subsp. enterica serovar Choleraesuis str. SC B67
+NC_007488	Rickettsia rickettsii str. Iowa
+NC_009837	Escherichia coli APEC O1
+NC_010994	Rhodobacter sphaeroides 2.4.1
+NC_008148	Novosphingobium aromaticivorans DSM 12444
+NC_006908	Cyanothece sp. ATCC 51142
+NC_009079	Burkholderia mallei NCTC 10247
+NC_009505	Roseobacter denitrificans OCh 114
+NC_000908	Pelobacter carbinolicus DSM 2380
+NC_009670	Nitrobacter hamburgensis X14
+NC_008836	Burkholderia mallei NCTC 10229
+NC_002771	Photobacterium profundum SS9
+NC_001318	Rhodopirellula baltica SH 1
+NC_010482	Cellvibrio japonicus Ueda107
+NC_010683	Rickettsia akari str. Hartford
+NC_006932	Brucella abortus bv. 1 str. 9 941
+NC_003485	Yersinia pestis Angola
+NC_009698	Clostridium botulinum A str. Hall
+NC_009376	Thermofilum pendens Hrk 5
+NC_010531	Proteus mirabilis HI4320
+NC_006624	Shewanella sp. ANA 3
+NC_007946	Helicobacter pylori J99
+NC_009254	Clostridium kluyveri DSM 555
+NC_010183	Shewanella woodyi ATCC 51908
+NC_010079	Streptococcus pyogenes MGAS10394
+NC_007622	Streptococcus pyogenes M1 GAS
+NC_011004	Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+NC_001264	Caulobacter sp. K31
+NC_008062	Burkholderia cenocepacia AU 1054
+NC_011134	Sodalis glossinidius str.  morsitans 
+NC_004722	Bacillus cereus ATCC 14579
+NC_009927	Aeromonas salmonicida subsp. salmonicida A449
+NC_010658	Staphylococcus epidermidis ATCC 12228
+NC_002929	Carboxydothermus hydrogenoformans Z 2901
+NC_003240	Polaromonas naphthalenivorans CJ2
+NC_010167	Brucella suis ATCC 23445
+NC_006958	Corynebacterium glutamicum ATCC 13032
+NC_010508	Burkholderia cenocepacia MC0 3
+NC_010408	Clavibacter michiganensis subsp. sepedonicus
+NC_010321	Nostoc punctiforme PCC 73102
+NC_008391	Lactobacillus salivarius UCC118
+NC_011000	Burkholderia cenocepacia J2315
+NC_005027	Clostridium novyi NT
+NC_008278	Serratia proteamaculans 568
+NC_007512	Dehalococcoides sp. CBDB1
+NC_011294	Shigella boydii CDC 3083 94
+NC_010086	Burkholderia multivorans ATCC 17616
+NC_010805	Burkholderia multivorans ATCC 17616
+NC_010678	Campylobacter hominis ATCC BAA 381
+NC_008750	Paracoccus denitrificans PD1222
+NC_009790	Escherichia coli E24377A
+NC_008358	Synechococcus sp. RCC307
+NC_007181	Coprothermobacter proteolyticus DSM 5265
+NC_009439	Syntrophomonas wolfei subsp. wolfei str. Goettingen
+NC_008571	Microcystis aeruginosa NIES 843
+NC_009513	Leptospira borgpetersenii serovar Hardjo bovis L550
+NC_007929	Cupriavidus metallidurans CH34
+NC_007514	Desulfovibrio alaskensis G20
+NC_006855	Shewanella baltica OS155
+NC_008042	Oenococcus oeni PSU 1
+NC_008209	Burkholderia ambifaria AMMD
+NC_000962	Prochlorococcus marinus str. MIT 9303
+NC_010511	Francisella philomiragia subsp. philomiragia ATCC 25017
+NC_007086	Vibrio fischeri ES114
+NC_008599	Pelotomaculum thermopropionicum SI
+NC_010400	Acidovorax citrulli AAC00 1
+NC_007712	Sulfolobus solfataricus P2
+NC_008826	Vibrio harveyi ATCC BAA 1116
+NC_007624	Brucella melitensis biovar Abortus 2308
+NC_002737	Yersinia pseudotuberculosis IP 32953
+NC_010278	Actinobacillus pleuropneumoniae serovar 3 str. JL03
+NC_009495	Clostridium botulinum A str. ATCC 3502
+NC_010001	Burkholderia ambifaria MC40 6
+NC_008255	Ochrobactrum anthropi ATCC 49188
+NC_009614	Burkholderia vietnamiensis G4
+NC_002516	Rhizobium etli CFN 42
+NC_005364	Cyanothece sp. ATCC 51142
+NC_008118	Thermus thermophilus HB27
+NC_007795	Streptococcus pneumoniae R6
+NC_003277	Lactobacillus sakei subsp. sakei 23K
+NC_000854	Thermotoga sp. RQ2
+NC_003098	Synechococcus elongatus PCC 7942
+NC_007953	Deinococcus geothermalis DSM 11300
+NC_008343	Mannheimia succiniciproducens MBEL55E
+NC_007205	Marinobacter aquaeolei VT8
+NC_008697	Sinorhizobium medicae WSM419
+NC_009664	Chromohalobacter salexigens DSM 3043
+NC_008573	Brucella canis ATCC 23365
+NC_008770	Campylobacter jejuni subsp. jejuni 81 176
+NC_003106	uncultured methanogenic archaeon RC I
+NC_008789	Sinorhizobium medicae WSM419
+NC_011312	Aromatoleum aromaticum EbN1
+NC_009955	Methanosarcina acetivorans C2A
+NC_009840	Pseudomonas syringae pv. tomato str. DC3000
+NC_007930	Cupriavidus metallidurans CH34
+NC_005815	Tropheryma whipplei str. Twist
+NC_011206	Alkaliphilus oremlandii OhILAs
+NC_004551	Acinetobacter baumannii AYE
+NC_007292	Shewanella sp. W3 18 1
+NC_007481	Neorickettsia sennetsu str. Miyayama
+NC_004842	Azorhizobium caulinodans ORS 571
+NC_011386	Rhodococcus jostii RHA1
+NC_009972	Bordetella petrii DSM 12804
+NC_006349	Burkholderia mallei ATCC 23344
+NC_011246	Parvibaculum lavamentivorans DS 1
+NC_009257	Klebsiella pneumoniae 342
+NC_006362	Clostridium tetani E88
+NC_009050	Salmonella enterica subsp. enterica serovar Gallinarum str. 287 91
+NC_009659	Ruegeria sp. TM1040
+NC_009622	Burkholderia vietnamiensis G4
+NC_010981	Roseobacter denitrificans OCh 114
+NC_005125	Bacteroides thetaiotaomicron VPI 5482
+NC_010612	Nostoc punctiforme PCC 73102
+NC_009726	Coxiella burnetii Dugway 5J108 111
+NC_009883	Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+NC_004459	Acaryochloris marina MBIC11017
+NC_006461	Acinetobacter baumannii ACICU
+NC_010717	Vibrio vulnificus YJ016
+NC_004349	Listeria innocua Clip11262
+NC_011274	Shigella boydii Sb227
+NC_002942	Mycobacterium avium 104
+NC_008536	Burkholderia vietnamiensis G4
+NC_008027	Chloroflexus aurantiacus J 10 fl
+NC_009512	Prochlorococcus marinus str. AS9601
+NC_007490	Salmonella enterica subsp. enterica serovar Choleraesuis str. SC B67
+NC_010557	Opitutus terrae PB90 1
+NC_000091	Vibrio cholerae O1 biovar El Tor str. N16961
+NC_007164	Methylobacterium extorquens PA1
+NC_006369	Methanococcus maripaludis C6
+NC_007577	Ralstonia eutropha JMP134
+NC_004088	Xanthomonas campestris pv. campestris str. B100
+NC_003903	Borrelia hermsii DAH
+NC_008751	Desulfovibrio vulgaris DP4
+NC_010003	Renibacterium salmoninarum ATCC 33209
+NC_011059	Cronobacter sakazakii ATCC BAA 894
+NC_008784	Burkholderia mallei SAVP1
+NC_010681	Haemophilus ducreyi 35000HP
+NC_008044	Pseudoalteromonas atlantica T6c
+NC_006350	Burkholderia pseudomallei K96243
+NC_008212	Jannaschia sp. CCS1
+NC_003454	Gloeobacter violaceus PCC 7421
+NC_009140	Shigella flexneri 2a str. 301
+NC_002935	Leuconostoc mesenteroides subsp. mesenteroides ATCC 8293
+NC_007354	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+NC_009431	Salmonella enterica subsp. enterica serovar Dublin str. CT 02021853
+NC_004851	Yersinia pestis CO92
+NC_003116	Pseudomonas aeruginosa PA7
+NC_009567	Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA 365
+NC_007645	Bordetella bronchiseptica RB50
+NC_009483	Pyrobaculum arsenaticum DSM 13514
+NC_002745	Streptococcus pneumoniae Hungary19A 6
+NC_009338	Paracoccus denitrificans PD1222
+NC_009073	Staphylothermus marinus F1
+NC_010628	Borrelia turicatae 91E135
+NC_009467	Akkermansia muciniphila ATCC BAA 835
+NC_009438	Nitrosomonas eutropha C91
+NC_002607	Erythrobacter litoralis HTCC2594
+NC_000117	Chlamydia trachomatis D UW 3 CX
+NC_008639	Chlorobium phaeobacteroides DSM 266
+NC_009613	Polaromonas sp. JS666
+NC_010623	Prosthecochloris aestuarii DSM 271
+NC_003155	Burkholderia phytofirmans PsJN
+NC_009704	Yersinia pestis biovar Microtus str. 91001
+NC_011071	Streptococcus pyogenes MGAS8232
+NC_009829	Burkholderia xenovorans LB400
+NC_002952	Streptococcus pyogenes MGAS10750
+NC_011148	Shewanella baltica OS195
+NC_010655	Anaeromyxobacter dehalogenans 2CP C
+NC_011313	Aromatoleum aromaticum EbN1
+NC_010480	Exiguobacterium sibiricum 255 15
+NC_011295	Haloarcula marismortui ATCC 43049
+NC_010120	Ralstonia eutropha H16
+NC_007901	Nitrobacter winogradskyi Nb 255
+NC_002928	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+NC_011244	Shewanella pealeana ATCC 700345
+NC_010170	Cupriavidus taiwanensis LMG 19424
+NC_007764	Rhodobacter sphaeroides 2.4.1
+NC_002967	Enterococcus faecalis V583
+NC_005861	Corynebacterium efficiens YS 314
+NC_010845	Mycobacterium bovis BCG str. Pasteur 1173P2
+NC_009497	Enterobacter sp. 638
+NC_010995	Borrelia duttonii Ly
+NC_008260	Arthrobacter sp. FB24
+NC_010084	Burkholderia multivorans ATCC 17616
+NC_006578	Bacillus thuringiensis serovar konkukian str. 97 27
+NC_008322	Nitrosopumilus maritimus SCM1
+NC_010741	Acinetobacter baumannii AYE
+NC_010381	Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305
+NC_008713	Burkholderia sp. 383
+NC_006371	Deinococcus radiodurans R1
+NC_010320	Clostridium phytofermentans ISDg
+NC_004369	Sorangium cellulosum  So ce 56 
+NC_006841	Acidiphilium cryptum JF 5
+NC_010399	Clavibacter michiganensis subsp. sepedonicus
+NC_009524	Thermofilum pendens Hrk 5
+NC_010181	Methylobacterium radiotolerans JCM 2831
+NC_008021	Yersinia pestis Angola
+NC_007435	Burkholderia pseudomallei 1710b
+NC_010580	Ralstonia pickettii 12J
+NC_009487	Streptococcus agalactiae NEM316
+NC_008538	Nostoc sp. PCC 7120
+NC_000853	Synechococcus sp. JA 2 3B a 2 13 
+NC_010816	Bifidobacterium longum DJO10A
+NC_008526	Leptospira borgpetersenii serovar Hardjo bovis JB197
+NC_002128	Francisella tularensis subsp. holarctica OSU18
+NC_005871	Dehalococcoides ethenogenes 195
+NC_007489	Rickettsia rickettsii str.  Sheila Smith 
+NC_003065	Anaeromyxobacter sp. K
+NC_007899	Nocardia farcinica IFM 10152
+NC_010644	Streptococcus equi subsp. zooepidemicus MGCS10565
+NC_000911	Mycobacterium vanbaalenii PYR 1
+NC_009468	Alcanivorax borkumensis SK2
+NC_010337	Thermoproteus neutrophilus V24Sta
+NC_009485	Pseudomonas stutzeri A1501
+NC_010602	Pseudomonas putida F1
+NC_003922	Finegoldia magna ATCC 29328
+NC_006347	Bacteroides fragilis YCH46
+NC_005128	Acaryochloris marina MBIC11017
+NC_002945	Porphyromonas gingivalis W83
+NC_008577	Brucella canis ATCC 23365
+NC_002940	Bdellovibrio bacteriovorus HD100
+NC_010546	Gramella forsetii KT0803
+NC_009783	Sphingomonas wittichii RW1
+NC_007908	Natronomonas pharaonis DSM 2160
+NC_010172	Synechococcus sp. PCC 7002
+NC_010831	Chlorobium phaeobacteroides BS1
+NC_008782	Actinobacillus succinogenes 130Z
+NC_009932	Agrobacterium tumefaciens str. C58
+NC_006833	Fusobacterium nucleatum subsp. nucleatum ATCC 25586
+NC_008709	Dinoroseobacter shibae DFL 12
+NC_007519	Halobacterium salinarum R1
+NC_010125	Lactobacillus fermentum IFO 3956
+NC_007925	Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+NC_009080	Burkholderia mallei NCTC 10247
+NC_010379	Clostridium botulinum B1 str. Okra
+NC_008595	Orientia tsutsugamushi str. Boryong
+NC_010718	Gluconobacter oxydans 621H
+NC_008699	Sinorhizobium medicae WSM419
+NC_009975	Neisseria meningitidis FAM18
+NC_007955	Deinococcus geothermalis DSM 11300
+NC_007777	Mycoplasma gallisepticum str. R low 
+NC_009632	Streptococcus agalactiae A909
+NC_010102	Staphylococcus aureus subsp. aureus COL
+NC_008369	Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+NC_003198	Idiomarina loihiensis L2TR
+NC_004757	Chromobacterium violaceum ATCC 12472
+NC_010080	Thermoanaerobacter pseudethanolicus ATCC 33223
+NC_004463	Polaromonas naphthalenivorans CJ2
+NC_009900	Vibrio parahaemolyticus RIMD 2210633
+NC_006368	Methanococcus maripaludis S2
+NC_007951	Sphingopyxis alaskensis RB2256
+NC_008601	Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+NC_007274	Rhizobium leguminosarum bv. trifolii WSM2304
+NC_009255	Clostridium kluyveri DSM 555
+NC_008497	Dehalococcoides sp. BAV1
+NC_010552	Ureaplasma parvum serovar 3 str. ATCC 27815
+NC_002663	Corynebacterium jeikeium K411
+NC_007677	Helicobacter hepaticus ATCC 51449
+NC_008344	Ochrobactrum anthropi ATCC 49188
+NC_007984	Pyrobaculum aerophilum str. IM2
+NC_006370	Deinococcus radiodurans R1
+NC_009481	Mycobacterium sp. KMS
+NC_004565	Xanthomonas axonopodis pv. citri str. 306
+NC_003272	Polaromonas naphthalenivorans CJ2
+NC_005362	Shigella sonnei Ss046
+NC_008270	Nocardia farcinica IFM 10152
+NC_009135	Neisseria meningitidis 053442
+NC_007971	Pseudoalteromonas haloplanktis TAC125
+NC_002936	Caldivirga maquilingensis IC 167
+NC_009675	Borrelia garinii PBi
+NC_004113	Synechococcus sp. CC9902
+NC_004311	Brucella suis 1330
+NC_010418	Clostridium botulinum A3 str. Loch Maree
+NC_011138	Arthrobacter aurescens TC1
+NC_004578	Rhizobium leguminosarum bv. trifolii WSM2304
+NC_010157	Xanthomonas oryzae pv. oryzae KACC10331
+NC_008253	Escherichia coli 536
+NC_011366	Rhodobacter sphaeroides ATCC 17029
+NC_007105	Bacillus cereus E33L
+NC_009508	Wolbachia endosymbiont of Culex quinquefasciatus Pel
+NC_009641	Streptococcus pneumoniae TIGR4
+NC_010660	Staphylococcus aureus subsp. aureus MSSA476
+NC_008563	Escherichia coli APEC O1
+NC_007294	Photobacterium profundum SS9
+NC_010368	Gluconacetobacter diazotrophicus PAl 5
+NC_002655	Francisella novicida U112
+NC_009939	Rhodospirillum centenum SW
+NC_011080	Shigella flexneri 2a str. 2457T
+NC_000958	Caulobacter sp. K31
+NC_008314	Rhizobium etli CFN 42
+NC_010843	Pseudomonas putida GB 1
+NC_009850	Borrelia burgdorferi B31
+NC_009380	Geobacillus thermodenitrificans NG80 2
+NC_007775	Salmonella enterica subsp. enterica serovar Typhi str. CT18
+NC_008618	Haloarcula marismortui ATCC 43049
+NC_011092	Staphylococcus aureus subsp. aureus JH1
+NC_007337	Rhizobium leguminosarum bv. viciae 3841
+NC_008261	Clostridium perfringens ATCC 13124
+NC_010674	Clostridium botulinum B str. Eklund 17B
+NC_008611	Methanothermobacter thermautotrophicus str. Delta H
+NC_004129	Rhizobium etli CIAT 652
+NC_010280	Chlamydia trachomatis L2b UCH 1 proctitis
+NC_009075	Burkholderia pseudomallei 668
+NC_008014	Pyrococcus furiosus DSM 3638
+NC_004605	Enterococcus faecalis V583
+NC_007005	Rhizobium leguminosarum bv. trifolii WSM2304
+NC_010465	Xylella fastidiosa Temecula1
+NC_002927	Syntrophobacter fumaroxidans MPOB
+NC_007356	Shewanella halifaxensis HAW EB4
+NC_009922	Arthrobacter sp. FB24
+NC_011420	Rhodococcus jostii RHA1
+NC_010998	Rhodobacter sphaeroides ATCC 17025
+NC_011351	Helicobacter pylori 26695
+NC_011371	Rhodopseudomonas palustris BisA53
+NC_007384	Lysinibacillus sphaericus C3 41
+NC_002179	Chlamydophila pneumoniae AR39
+NC_002755	Prochlorococcus marinus str. MIT 9211
+NC_009655	Aromatoleum aromaticum EbN1
+NC_007406	Chlorobium chlorochromatii CaD3
+NC_004632	Rhizobium leguminosarum bv. trifolii WSM2304
+NC_008229	Methanospirillum hungatei JF 1
+NC_004307	Bifidobacterium longum NCC2705
+NC_010688	Vibrio fischeri ES114
+NC_005863	Desulfovibrio vulgaris str. Hildenborough
+NC_007608	Staphylococcus epidermidis RP62A
+NC_010997	Rhodobacter sphaeroides ATCC 17025
+NC_007429	Chlamydia trachomatis A HAR 13
+NC_007793	Streptococcus pyogenes MGAS10270
+NC_006274	Bacillus cereus E33L
+NC_011353	Haemophilus somnus 2336
+NC_009806	Ruegeria sp. TM1040
+NC_009565	Prochlorococcus marinus str. MIT 9215
+NC_009705	Xylella fastidiosa 9a5c
+NC_006177	Bifidobacterium adolescentis ATCC 15703
+NC_006513	Burkholderia thailandensis E264
+NC_008023	Yersinia pseudotuberculosis IP 31758
+NC_010742	Brucella abortus S19
+NC_009957	Ralstonia solanacearum GMI1000
+NC_002490	Ureaplasma urealyticum serovar 10 str. ATCC 33699
+NC_010625	Prosthecochloris aestuarii DSM 271
+NC_005085	Methanosarcina mazei Go1
+NC_009078	Burkholderia pseudomallei 1106a
+NC_008309	Lactobacillus reuteri DSM 20016
+NC_010582	Streptococcus thermophilus CNRZ1066
+NC_008512	Thermotoga petrophila RKU 1
+NC_008527	Leptospira interrogans serovar Lai str. 56601
+NC_008819	Rhizobium etli CFN 42
+NC_009445	Mycobacterium sp. KMS
+NC_011185	Acidiphilium cryptum JF 5
+NC_009457	Acaryochloris marina MBIC11017
+NC_004741	Yersinia pestis CO92
+NC_011416	Haemophilus influenzae PittEE
+NC_009958	Rhodospirillum rubrum ATCC 11170
+NC_009785	Streptomyces coelicolor A3 2 
+NC_010333	Lactobacillus helveticus DPC 4571
+NC_007641	Rhodospirillum rubrum ATCC 11170
+NC_003296	Ralstonia solanacearum GMI1000
+NC_007109	Rickettsia felis URRWXCal2
+NC_006055	Mesoplasma florum L1
+NC_002679	Mesorhizobium loti MAFF303099
+NC_003103	Rickettsia conorii str. Malish 7
+NC_002682	Mesorhizobium loti MAFF303099
+NC_003295	Ralstonia solanacearum GMI1000
+NC_000916	Methanothermobacter thermautotrophicus str. Delta H
+NC_003552	Methanosarcina acetivorans C2A
+NC_006142	Rickettsia typhi str. Wilmington
+NC_007110	Rickettsia felis URRWXCal2
+NC_007626	Magnetospirillum magneticum AMB 1
+NC_002678	Mesorhizobium loti MAFF303099
+NC_006300	Mannheimia succiniciproducens MBEL55E
+NC_007643	Rhodospirillum rubrum ATCC 11170
+NC_004350	Streptococcus mutans UA159
+NC_003551	Methanopyrus kandleri AV19
+NC_000909	Methanocaldococcus jannaschii DSM 2661
+NC_000963	Rickettsia prowazekii str. Madrid E
