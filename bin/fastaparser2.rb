@@ -1,51 +1,9 @@
 #!/usr/bin/ruby
 
+module Fasta_parser
+  
 require 'optparse'
 require 'ostruct'
-
-id_map = Hash.new
-
-# OptionParser
-def parseargs(testsets, argv)
-  options = OpenStruct.new
-  options.testsetnames = nil
-  options.namesonly = false
-  options.idsonly = false
-  options.datasetpath = "/scratch/gi/studprj/metaclassify/data_sets"
-    
-  # maybe implement an option to overwrite datapath, if necessary
-  optionparser = OptionParser.new()
-  # rename following option to switch on mode which outputs extra values
-  optionparser.on("-n","--names-only","output only names") do |x|
-    options.namesonly = true
-  end
-  optionparser.on("-i","--ids-only","output only identifiers") do |x|
-    options.idsonly = true
-  end
-  optionparser.on("-db","--db_path","change default path to /scratch/gi/studprj/metaclassify/data_base") do |x|
-    options.datasetpath = "/scratch/gi/studprj/metaclassify/data_base" 
-    testsets = ["database_SwissProt"]
-  end
-  optionparser.on("-h","--help","Show this message") do
-    puts optionparser
-    exit
-  end
-
-  rest = optionparser.parse(argv)
-  if rest.empty?
-    options.testsetnames = testsets
-  else
-    options.testsetnames = rest
-    options.testsetnames.each do |name|
-      if not testsets.member?(name)
-        STDERR.puts "#{$0}: illegal name #{name}: possible names of testsets " +
-                    "are " + testsets.join(", ")
-        exit 1
-      end
-    end
-  end
-  return options
-end
 
 def enum_files_in_subtree(directory)
   stack = Array.new()
@@ -203,71 +161,54 @@ def swiss_prot(line, id_map)
   identifier_map(id, name, id_map)
 end
   
-testsets = ["Carma","FACS","Metaphyler","PhyloPythia","PhymmBL","RAIphy"]
-options = parseargs(testsets, ARGV)
+def mainly(id_map, testsetname)
+  #testsetname = "/scratch/gi/studprj/metaclassify/data_sets/Carma"
+    if testsetname.match(/PhymmBL/)
+      path_phym = "/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/res/scientific_names.tab"
+      phym(id_map, path_phym)
+    elsif testsetname.match(/PhyloPythia/)
+      path_phyl = "/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/res/readsInfo.tab"
+      phyl(id_map, path_phyl)  
+    elsif testsetname.match(/Metaphyler/)
+      path_met = "/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/res/markerstax.tab"
+      met(id_map, path_met)
+    else
+      enum_fasta_files_in_subtree(testsetname) do |filename|
+        extract_fasta_header(filename) do |header|
+          
+          if testsetname.match(/(Carma)|(FACS)/)
+            if header.match(/\|SOURCES=\{GI=/)
+              carma_facs(header, id_map) 
+            else
+              STDERR.puts "In Carma or FACS: Unknown format in dataset."
+              exit 1 
+            end
+          
+          elsif testsetname.match(/RAIphy/)
+            if header.match(/^>>gi\|/)
+              raiphy(header, id_map)
+            else
+              STDERR.puts "In RAIphy: Unknown format in dataset."
+              exit 1 
+            end 
 
-if options.idsonly and options.namesonly
-  STDERR.puts "Invalid combination of options."
-  exit 1
-end
-  
-options.testsetnames.each do |testsetname|
-  if testsetname.match(/PhymmBL/)
-    path_phym = "/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/res/scientific_names.tab"
-    phym(id_map, path_phym)
-  elsif testsetname.match(/PhyloPythia/)
-    path_phyl = "/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/res/readsInfo.tab"
-    phyl(id_map, path_phyl)  
-  elsif testsetname.match(/Metaphyler/)
-    path_met = "/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/res/markerstax.tab"
-    met(id_map, path_met)
-  else
-    enum_fasta_files_in_subtree(options.datasetpath + "/" +
-                              testsetname) do |filename|
-      extract_fasta_header(filename) do |header|
-        
-        if testsetname.match(/(Carma)|(FACS)/)
-          if header.match(/\|SOURCES=\{GI=/)
-            carma_facs(header, id_map) 
+          elsif testsetname.match(/database_SwissProt/)
+            if header.match(/^>sp\|\S+/)
+              swiss_prot(header, id_map)
+            else
+              STDERR.puts "In Database_SwissProt: Unknown format in dataset."
+              exit 1 
+            end
+          
           else
-            STDERR.puts "In Carma or FACS: Unknown format in dataset."
-            exit 1 
-          end
-         
-        elsif testsetname.match(/RAIphy/)
-          if header.match(/^>>gi\|/)
-            raiphy(header, id_map)
-          else
-            STDERR.puts "In RAIphy: Unknown format in dataset."
-            exit 1 
-          end 
-
-        elsif testsetname.match(/database_SwissProt/)
-          if header.match(/^>sp\|\S+/)
-            swiss_prot(header, id_map)
-          else
-            STDERR.puts "In Database_SwissProt: Unknown format in dataset."
-            exit 1 
-          end
-        
-        else
-          STDERR.puts "Unknown format in dataset."
-          exit 1
-        end    
+            STDERR.puts "Unknown format in dataset."
+            exit 1
+          end    
+        end
       end
-    end
-  end # if testsetname.match(/PhymmBL/)
-end #options.testsetnames.each do |testsetname|
-
-if options.namesonly 
-  id_map.each {|key,value|   
-    puts "#{value}"}
-elsif options.idsonly
-  id_map.each {|key,value|   
-    puts "#{key}"}
-else
-  id_map.each {|key,value|   
-    puts "#{key}\t#{value}"}
+    end # if testsetname.match(/PhymmBL/)
+    return id_map  
+  end #options.testsetnames.each do |testsetname|
 end
 
                   
