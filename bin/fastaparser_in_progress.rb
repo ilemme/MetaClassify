@@ -2,22 +2,17 @@
 
 require 'optparse'
 require 'ostruct'
+require_relative 'fasta_parser_collection_progress.rb'
 
-@path_phym = "/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/res/scientific_names.txt"
-@path_phyl = "/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/res/readsInfo.txt"
-@path_met = "/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/res/markerstax.tab"
-@phymcount = 0
-@phylcount = 0
-@metcount = 0
 
-id_map = Hash.new
-
-def parseargs(testsets,argv)
+# OptionParser
+def parseargs(testsets, argv)
   options = OpenStruct.new
   options.testsetnames = nil
   options.namesonly = false
   options.idsonly = false
   options.datasetpath = "/scratch/gi/studprj/metaclassify/data_sets"
+    
   # maybe implement an option to overwrite datapath, if necessary
   optionparser = OptionParser.new()
   # rename following option to switch on mode which outputs extra values
@@ -26,6 +21,10 @@ def parseargs(testsets,argv)
   end
   optionparser.on("-i","--ids-only","output only identifiers") do |x|
     options.idsonly = true
+  end
+  optionparser.on("-db","--db_path","change default path to /scratch/gi/studprj/metaclassify/data_base") do |x|
+    options.datasetpath = "/scratch/gi/studprj/metaclassify/data_base" 
+    testsets = ["database_SwissProt"]
   end
   optionparser.on("-h","--help","Show this message") do
     puts optionparser
@@ -48,55 +47,23 @@ def parseargs(testsets,argv)
   return options
 end
 
-def enum_files_in_subtree(directory)
-  stack = Array.new()
-  stack.push(directory)
-  while not stack.empty?
-    subdir = stack.pop
-    Dir.entries(subdir).each do |entry|
-      if not entry.match(/^\.\.?$/)
-        if File.stat(subdir + "/" + entry).file?
-          yield subdir + "/" + entry
-        else
-          stack.push(subdir + "/" + entry)
-        end
-      end
-    end
-  end
-end
 
 # use the previous function to enumerate all files in directory and
 # select only those that are fasta files based on the the possible suffixes
 # of the file names
-
 def enum_fasta_files_in_subtree(directory)
-  enum_files_in_subtree(directory) do |filename|
+  extend Fasta_parser_collection
+  self.enum_files_in_subtree(directory) do |filename|
     if filename.match(/\.f(na|asta|as|aa)$/) # extend possible suffixes
       yield filename
     end
   end
 end
 
-# given the name of an inputfile in fasta format, open it and extract
-# the header line from it
 
-def extract_fasta_header(inputfile)
-  begin
-    f = File.new(inputfile,"r")
-  rescue => err
-    STDERR.puts "#{$0}: cannot open inputfile #{inputfile}: #{err}"
-    exit 1
-  end
-  f.each_line do |line|
-    if line.match(/^>/)
-      yield line.chomp
-    end
-  end
-end
 
 #following function
 #includes name and id given by the different functions into the hash id_map
-
 def identifier_map(id, name, id_map)
   if !id_map.include? id
     id_map[id] = name
@@ -104,7 +71,6 @@ def identifier_map(id, name, id_map)
 end
 
 #dataset-parser RAIphy
-
 def raiphy(line, id_map)
   s = line.split("|") 
   id = s[3]
@@ -122,8 +88,7 @@ def raiphy(line, id_map)
 end
 
 #dataset-parser CARMA and FACS
-
-def carma_facs(line, id_map)
+def carma_facs_parse_header(line, id_map)
    m = line.match(/=(\d+)/)   
   if m.nil?
     STDERR.puts "No id found"
@@ -140,13 +105,11 @@ def carma_facs(line, id_map)
 end
 
 #dataset-parser PhymmBL
-
-def phym(line, id_map)
-  @phymcount = 1
+def phym_preprocess(id_map, path_phym)
   begin
-    file = File.open(@path_phym, "r")
+    file = File.open(path_phym, "r")
   rescue => err 
-    STDERR.puts "Cannot open File #{@path_phym}"
+    STDERR.puts "Cannot open File #{path_phym}"
     exit 1
   end 
     file.each_line do |linephym|
@@ -159,13 +122,11 @@ def phym(line, id_map)
 end
 
 #dataset-parser PhyloPythia
-
-def phyl(line, id_map)
-  @phylcount = 1  
+def phyl(id_map, path_phyl)
   begin
-    file = File.open(@path_phyl, "r")
+    file = File.open(path_phyl, "r")
   rescue => err
-    STDERR.puts "Cannot open File #{@path_phyl}"
+    STDERR.puts "Cannot open File #{path_phyl}"
     exit 1
   end 
   file.each_line do |linephyl|
@@ -178,13 +139,11 @@ def phyl(line, id_map)
 end
 
 #dataset-parser Metaphyler
-
-def met(line, id_map)
-  @metcount = 1
+def met(id_map, path_met)
   begin
-    file = File.open(@path_met, "r")
+    file = File.open(path_met, "r")
   rescue => err
-    STDERR.puts "Cannot open File #{@path_met}"
+    STDERR.puts "Cannot open File #{path_met}"
     exit 1
   end
   file.each_line do |linemet|
@@ -198,9 +157,26 @@ def met(line, id_map)
   file.close
 end
 
+#database-parser SwissProt
+def swiss_prot(line, id_map)
+  m = line.match(/^>(sp\|\S+\|\S+)/)   
+  if m.nil?
+    STDERR.puts "No id found"
+    exit 1
+  end 
+  id = m[1]
+  m = line.match (/OS=(.*)/)  
+  if m.nil?
+    STDERR.puts "No name found"
+    exit 1
+  end 
+  name=m[1]
+  identifier_map(id, name, id_map)
+end
   
 testsets = ["Carma","FACS","Metaphyler","PhyloPythia","PhymmBL","RAIphy"]
-options = parseargs(testsets,ARGV)
+options = parseargs(testsets, ARGV)
+id_map = Hash.new
 
 if options.idsonly and options.namesonly
   STDERR.puts "Invalid combination of options."
@@ -208,32 +184,53 @@ if options.idsonly and options.namesonly
 end
   
 options.testsetnames.each do |testsetname|
-  enum_fasta_files_in_subtree(options.datasetpath + "/" +
+  if testsetname.match(/PhymmBL/)
+    path_phym = "/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/res/scientific_names.tab"
+    phym_preprocess(id_map, path_phym)
+  elsif testsetname.match(/PhyloPythia/)
+    path_phyl = "/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/res/readsInfo.tab"
+    phyl(id_map, path_phyl)  
+  elsif testsetname.match(/Metaphyler/)
+    path_met = "/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/res/markerstax.tab"
+    met(id_map, path_met)
+  else
+    enum_fasta_files_in_subtree(options.datasetpath + "/" +
                               testsetname) do |filename|
-    extract_fasta_header(filename) do |header|
-      if header.match(/^>>gi\|/)
-        raiphy(header, id_map)
-      elsif header.match(/\|SOURCES=\{GI=/)
-        carma_facs(header, id_map)
-      elsif header.match(/^>\w{3}\d+\.\d+/)
-        if @phymcount == 0
-          phym(header, id_map)
-        end
-      elsif header.match(/CHROMAT_FILE/)
-        if @phylcount == 0
-          phyl(header, id_map)
-        end
-      elsif header.match(/^>\w+\_(\d+|\w+)\_\d+/)
-        if @metcount == 0
-          met(header, id_map)
-        end
-      else
-        STDERR.puts "Unknown format in dataset."
-        exit 1
-      end     
+      extend Extract_fheader
+      self.extract_fasta_header(filename) do |header|
+        
+        if testsetname.match(/(Carma)|(FACS)/)
+          if header.match(/\|SOURCES=\{GI=/)
+            carma_facs_parse_header(header, id_map) 
+          else
+            STDERR.puts "In Carma or FACS: Unknown format in dataset."
+            exit 1 
+          end
+         
+        elsif testsetname.match(/RAIphy/)
+          if header.match(/^>>gi\|/)
+            raiphy(header, id_map)
+          else
+            STDERR.puts "In RAIphy: Unknown format in dataset."
+            exit 1 
+          end 
+
+        elsif testsetname.match(/database_SwissProt/)
+          if header.match(/^>sp\|\S+/)
+            swiss_prot(header, id_map)
+          else
+            STDERR.puts "In Database_SwissProt: Unknown format in dataset."
+            exit 1 
+          end
+        
+        else
+          STDERR.puts "Unknown format in dataset."
+          exit 1
+        end    
+      end
     end
-  end
-end
+  end # if testsetname.match(/PhymmBL/)
+end #options.testsetnames.each do |testsetname|
 
 if options.namesonly 
   id_map.each {|key,value|   
