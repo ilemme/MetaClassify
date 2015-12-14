@@ -2,31 +2,28 @@
 
 module Fasta_parser_collection
 
-#require 'ostruct'
 
-def enum_files_in_subtree(directory)
+def self.enum_files_in_subtree(directory)
   stack = Array.new()
   stack.push(directory)
   while not stack.empty?
     subdir = stack.pop
       Dir.entries(subdir).each do |entry|
-        if not entry.match(/^\.\.?$/)
-          if File.stat(subdir + "/" + entry).file?
-            yield subdir + "/" + entry
-          else
-            stack.push(subdir + "/" + entry)
-          end
-        end
+	if not entry.match(/^\.\.?$/)
+	  if File.stat(subdir + "/" + entry).file?
+	    yield subdir + "/" + entry
+	  else
+	    stack.push(subdir + "/" + entry)
+	  end
+	end
       end
     end
   end
 end
 
-
-module Extract_fheader
 # given the name of an inputfile in fasta format, open it and extract
 # the header line from it
-def extract_fasta_header(inputfile)
+def self.extract_fasta_header(inputfile)
   begin
     f = File.new(inputfile,"r")
   rescue => err
@@ -39,3 +36,4 @@ def extract_fasta_header(inputfile)
     end
   end
 end
+

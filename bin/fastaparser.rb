@@ -2,7 +2,7 @@
 
 require 'optparse'
 require 'ostruct'
-
+load 'fasta_parser_collection.rb'
 
 
 # OptionParser
@@ -47,49 +47,20 @@ def parseargs(testsets, argv)
   return options
 end
 
-def enum_files_in_subtree(directory)
-  stack = Array.new()
-  stack.push(directory)
-  while not stack.empty?
-    subdir = stack.pop
-    Dir.entries(subdir).each do |entry|
-      if not entry.match(/^\.\.?$/)
-        if File.stat(subdir + "/" + entry).file?
-          yield subdir + "/" + entry
-        else
-          stack.push(subdir + "/" + entry)
-        end
-      end
-    end
-  end
-end
 
 # use the previous function to enumerate all files in directory and
 # select only those that are fasta files based on the the possible suffixes
 # of the file names
 def enum_fasta_files_in_subtree(directory)
-  enum_files_in_subtree(directory) do |filename|
+  #extend Fasta_parser_collection
+  Fasta_parser_collection.enum_files_in_subtree(directory) do |filename|
     if filename.match(/\.f(na|asta|as|aa)$/) # extend possible suffixes
       yield filename
     end
   end
 end
 
-# given the name of an inputfile in fasta format, open it and extract
-# the header line from it
-def extract_fasta_header(inputfile)
-  begin
-    f = File.new(inputfile,"r")
-  rescue => err
-    STDERR.puts "#{$0}: cannot open inputfile #{inputfile}: #{err}"
-    exit 1
-  end
-  f.each_line do |line|
-    if line.match(/^>/)
-      yield line.chomp
-    end
-  end
-end
+
 
 #following function
 #includes name and id given by the different functions into the hash id_map
@@ -117,7 +88,7 @@ def raiphy(line, id_map)
 end
 
 #dataset-parser CARMA and FACS
-def carma_facs(line, id_map)
+def carma_facs_parse_header(line, id_map)
    m = line.match(/=(\d+)/)   
   if m.nil?
     STDERR.puts "No id found"
@@ -134,7 +105,7 @@ def carma_facs(line, id_map)
 end
 
 #dataset-parser PhymmBL
-def phym(id_map, path_phym)
+def phym_preprocess(id_map, path_phym)
   begin
     file = File.open(path_phym, "r")
   rescue => err 
@@ -215,7 +186,7 @@ end
 options.testsetnames.each do |testsetname|
   if testsetname.match(/PhymmBL/)
     path_phym = "/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/res/scientific_names.tab"
-    phym(id_map, path_phym)
+    phym_preprocess(id_map, path_phym)
   elsif testsetname.match(/PhyloPythia/)
     path_phyl = "/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/res/readsInfo.tab"
     phyl(id_map, path_phyl)  
@@ -225,11 +196,12 @@ options.testsetnames.each do |testsetname|
   else
     enum_fasta_files_in_subtree(options.datasetpath + "/" +
                               testsetname) do |filename|
-      extract_fasta_header(filename) do |header|
+      extend Fasta_parser_collection 
+      self.extract_fasta_header(filename) do |header|
         
         if testsetname.match(/(Carma)|(FACS)/)
           if header.match(/\|SOURCES=\{GI=/)
-            carma_facs(header, id_map) 
+            carma_facs_parse_header(header, id_map) 
           else
             STDERR.puts "In Carma or FACS: Unknown format in dataset."
             exit 1 
