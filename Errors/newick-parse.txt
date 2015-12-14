@@ -1,0 +1,9 @@
+ilemme@stuttgart:/work/gi/software/taxtree> ./newick-parse.rb -f $MC/list_of_names/carma.txt bacteria_ncbi_newick.tre > $MC/Errors/newick-parse.txt
+./newick-parse.rb:5:in `assert': ./newick-parse.rb: line 48, assertion not @name_map.has_key?(environmental_samples) failed (RuntimeError)
+        from ./newick-parse.rb:48:in `block in initialize'
+        from ./newick-parse.rb:269:in `block in enum_nodes'
+        from ./newick-parse.rb:265:in `each'
+        from ./newick-parse.rb:265:in `enum_nodes'
+        from ./newick-parse.rb:47:in `initialize'
+        from ./newick-parse.rb:415:in `new'
+        from ./newick-parse.rb:415:in `<main>'

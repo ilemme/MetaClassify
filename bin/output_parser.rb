@@ -102,7 +102,7 @@ def output_parser(line, matching_map)
    STDERR.puts "No name found"
    exit 1
   end 
-  matching_map[query_id].add(database_id)
+  matching_map[query_id.to_sym].add(database_id.to_sym)
 end
 
 outputs = ["Lambda", "Diamond"]

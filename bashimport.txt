@@ -1,11 +1,14 @@
+#all binary paths
+
 export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
 export PATH=$PATH:/work/gi/software/lambda/bin
 export PATH=$PATH:/work/gi/studprj/metaclassify/bin
 
+#Librarys used by lambda
 export LD_LIBRARY_PATH=/usr/local/zbhtools/gcc/gcc-5.1.0/lib64/
 
-
+#all short-paths
 export MC='/work/gi/studprj/metaclassify'
 export SMC='/scratch/gi/studprj/metaclassify/'
 export DB='/scratch/gi/studprj/metaclassify/data_base/'
@@ -17,14 +20,10 @@ export FAC='/scratch/gi/studprj/metaclassify/data_sets/FACS/data/'
 export PHYM='/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/data/'
 export PHYL='/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/data/'
 
-
-
+#all aliases
 alias cdMC="cd ${MC}"
 alias cdDB='cd ${SMC}/data_base'
 alias cdDS='cd ${SMC}/data_sets'
 alias cdMDL='cd ${SMC}/UProCModel'
 alias cdSW='cd /work/gi/software'
-
 alias schmod='/work/gi/studprj/metaclassify/bin/run_chmod.sh'
-
-
