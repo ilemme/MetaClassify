@@ -1,0 +1,33 @@
+Aliivibrio salmonicida LFI1238 chromosome 1
+Aliivibrio salmonicida LFI1238 chromosome 2
+Bdellovibrio bacteriovorus HD100
+Brucella melitensis biovar Abortus 2308 chromosome I
+Brucella melitensis biovar Abortus 2308 chromosome II
+Burkholderia mallei SAVP1 chromosome I
+Burkholderia mallei SAVP1 chromosome II
+Burkholderia multivorans ATCC 17616 chromosome 1
+Burkholderia multivorans ATCC 17616 chromosome 2
+Burkholderia multivorans ATCC 17616 chromosome 3
+Chlamydia trachomatis D/UW-3/CX
+Clostridium phytofermentans ISDg
+Colwellia psychrerythraea 34H
+Cyanothece sp. ATCC 51142 chromosome circular
+Cyanothece sp. ATCC 51142 chromosome linear
+Escherichia coli B str. REL606
+Haemophilus parasuis SH0165
+Helicobacter pylori B38
+Mycobacterium abscessus ATCC 19977 chromosome 1
+Orientia tsutsugamushi str. Ikeda
+Pseudomonas aeruginosa PA7
+Rhodopseudomonas palustris BisB5
+Shigella boydii CDC 3083-94
+Sinorhizobium meliloti 1021
+Staphylococcus aureus subsp. aureus Mu50
+Staphylococcus epidermidis ATCC 12228
+Streptococcus pneumoniae G54
+Sulfurovum sp. NBC37-1
+Synechococcus sp. CC9605
+Vibrio cholerae M66-2 chromosome I
+Vibrio cholerae M66-2 chromosome II
+Vibrio parahaemolyticus RIMD 2210633 chromosome I
+Vibrio parahaemolyticus RIMD 2210633 chromosome II

@@ -1,0 +1,25 @@
+Agrobacterium tumefaciens str. C58 chromosome circular
+Alcanivorax borkumensis SK2
+Anabaena variabilis ATCC 29413
+Archaeoglobus fulgidus DSM 4304
+Bdellovibrio bacteriovorus HD100
+Bombyx mori nucleopolyhedrovirus
+Buchnera aphidicola str. APS (Acyrthosiphon pisum) plasmid pLeu
+Campylobacter jejuni subsp. jejuni 81-176
+Candidatus Blochmannia floridanus
+Clostridium acetobutylicum ATCC 824
+Escherichia coli str. K-12 substr. DH10B
+Francisella tularensis subsp. tularensis Schu 4
+Human adenovirus type 11
+Human papillomavirus type 60
+Lactococcus lactis subsp. cremoris SK11
+Methanoculleus marisnigri JR1
+NC_000008 Homo sapiens chromosome 8
+NC_000021 Homo sapiens chromosome 21
+Nitrosomonas europaea ATCC 19718
+Pasteurella multocida subsp. multocida str. Pm70
+Pseudomonas aeruginosa PA7
+Pseudomonas entomophila L48
+Pseudomonas fluorescens Pf0-1
+Streptomyces coelicolor A3(2)
+Sulfolobus tokodaii str. 7

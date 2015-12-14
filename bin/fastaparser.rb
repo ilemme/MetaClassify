@@ -3,7 +3,7 @@
 require 'optparse'
 require 'ostruct'
 
-id_map = Hash.new
+
 
 # OptionParser
 def parseargs(testsets, argv)
@@ -205,6 +205,7 @@ end
   
 testsets = ["Carma","FACS","Metaphyler","PhyloPythia","PhymmBL","RAIphy"]
 options = parseargs(testsets, ARGV)
+id_map = Hash.new
 
 if options.idsonly and options.namesonly
   STDERR.puts "Invalid combination of options."

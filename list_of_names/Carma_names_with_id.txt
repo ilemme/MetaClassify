@@ -1,0 +1,33 @@
+209693634	Aliivibrio salmonicida LFI1238 chromosome 1
+209808847	Aliivibrio salmonicida LFI1238 chromosome 2
+42521650	Bdellovibrio bacteriovorus HD100
+82698932	Brucella melitensis biovar Abortus 2308 chromosome I
+83268957	Brucella melitensis biovar Abortus 2308 chromosome II
+121598179	Burkholderia mallei SAVP1 chromosome I
+121596444	Burkholderia mallei SAVP1 chromosome II
+161523180	Burkholderia multivorans ATCC 17616 chromosome 1
+161519706	Burkholderia multivorans ATCC 17616 chromosome 2
+161522356	Burkholderia multivorans ATCC 17616 chromosome 3
+15604717	Chlamydia trachomatis D/UW-3/CX
+160878162	Clostridium phytofermentans ISDg
+71277742	Colwellia psychrerythraea 34H
+172034917	Cyanothece sp. ATCC 51142 chromosome circular
+172054853	Cyanothece sp. ATCC 51142 chromosome linear
+254160123	Escherichia coli B str. REL606
+219870279	Haemophilus parasuis SH0165
+254778738	Helicobacter pylori B38
+169627108	Mycobacterium abscessus ATCC 19977 chromosome 1
+189182907	Orientia tsutsugamushi str. Ikeda
+152983466	Pseudomonas aeruginosa PA7
+91974482	Rhodopseudomonas palustris BisB5
+187730020	Shigella boydii CDC 3083-94
+15963753	Sinorhizobium meliloti 1021
+57634611	Staphylococcus aureus subsp. aureus Mu50
+27466918	Staphylococcus epidermidis ATCC 12228
+194396645	Streptococcus pneumoniae G54
+152991597	Sulfurovum sp. NBC37-1
+78211558	Synechococcus sp. CC9605
+227080237	Vibrio cholerae M66-2 chromosome I
+227811634	Vibrio cholerae M66-2 chromosome II
+28896774	Vibrio parahaemolyticus RIMD 2210633 chromosome I
+28899855	Vibrio parahaemolyticus RIMD 2210633 chromosome II

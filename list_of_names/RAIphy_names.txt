@@ -1,0 +1,53 @@
+ Brucella abortus bv. 1 str. 9-941 chromosome I
+ Dehalococcoides sp. BAV1
+ Chloroflexus sp. Y-400-fl
+ Anaeromyxobacter sp. Fw109-5
+ Thermotoga neapolitana DSM 4359
+ Burkholderia thailandensis E264 chromosome I
+ Helicobacter acinonychis str. Sheeba
+ Borrelia garinii PBi chromosome linear
+ Yersinia pestis Angola
+ Mycobacterium sp. JLS
+ Francisella philomiragia subsp. philomiragia ATCC 25017
+ Rickettsia rickettsii str. 'Sheila Smith'
+ Shigella sonnei Ss046
+ Aster yellows witches'-broom phytoplasma AYWB
+ Bordetella avium 197N
+ Pyrobaculum calidifontis JCM 11548
+ Bacillus amyloliquefaciens FZB42
+ Shewanella denitrificans OS217
+ Xanthomonas axonopodis pv. citri str. 306
+ Clostridium beijerinckii NCIMB 8052
+ Pyrococcus furiosus DSM 3638
+ Campylobacter curvus 525.92
+ Thermoanaerobacter tengcongensis MB4
+ Leptospira borgpetersenii serovar Hardjo-bovis JB197 chromosome 1
+ Pseudomonas fluorescens Pf0-1
+ Methylobacterium radiotolerans JCM 2831
+ Streptococcus pyogenes str. Manfredo
+ Synechococcus sp. CC9311
+ Streptomyces avermitilis MA-4680
+ Vibrio cholerae O395 chromosome 2
+ Staphylococcus aureus subsp. aureus Mu3
+ Psychrobacter arcticus 273-4
+ Cyanothece sp. ATCC 51142 chromosome circular
+ Mycoplasma genitalium G37
+ Listeria welshimeri serovar 6b str. SLCC5334
+ Chlamydophila caviae GPIC
+ Lactobacillus salivarius UCC118
+ Bifidobacterium adolescentis ATCC 15703
+ Methanococcus aeolicus Nankai-3
+ Bartonella quintana str. Toulouse
+ Arthrobacter aurescens TC1
+ Methanosarcina acetivorans C2A
+ Geobacter sp. FRC-32
+ Ehrlichia ruminantium str. Welgevonden
+ Corynebacterium glutamicum ATCC 13032
+ Wolbachia sp. wRi
+ Bacteroides vulgatus ATCC 8482
+ Haemophilus somnus 129PT
+ Ralstonia eutropha JMP134 chromosome 1
+ Sulfolobus islandicus M.14.25
+ Frankia sp. CcI3
+ Chlorobium limicola DSM 245
+ Bradyrhizobium sp. ORS278
