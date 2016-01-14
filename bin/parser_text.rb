@@ -3,7 +3,7 @@
 require 'set'
 
 id_set = Set.new
-id_map = Hash.new
+#id_map = Hash.new
 
 begin
   text = File.open(ARGV[0],"r")
@@ -28,12 +28,14 @@ end
 map.each_line do |line| 
   s = line.split("\t")
   #puts s[0]
-  id_set.member?(s[0])
-  id_map[s[0]] = s[1]
+  if (id_set.member?(s[0]))
+    puts line
+  #id_map[s[0]] = s[1]
+  end
 end
 
-id_map.each {|key,value|   
-             puts "#{key}\t#{value}"}
+#id_map.each {|key,value|   
+ #            puts "#{key}\t#{value}"}
 
 
 
