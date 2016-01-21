@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
+require 'set'
 
-USAGE = "Usage: #{$0} dataset.fasta taxid_map.txt"
+USAGE = "Usage: #{$0} dataset.fasta taxid_map.txt logfile.txt"
 
 def parse_carma(fasta, id_to_read_hash)
   fasta.each_line do |line|
@@ -97,7 +98,7 @@ def parse_rai(fasta, id_to_read_hash)
 end
 
 
-if ARGV.length != 2
+if ARGV.length != 3
   STDERR.puts USAGE
   exit 1
   
@@ -105,10 +106,18 @@ else
 
  read_to_id_hash = Hash.new
  id_to_read_hash = Hash.new() 
- no_match= Array.new
+ no_match= Set.new
  id=nil
  count=0
  path = ARGV[0].to_s
+ 
+ begin
+   log = File.open(ARGV[2],"w")
+ rescue => err
+   STDERR.puts "Cannot open file the-log-file}."
+   exit 1
+ end
+ 
   begin
     fasta = File.open(ARGV[0],"r")
   rescue => err
@@ -148,14 +157,16 @@ else
         puts "#{r}\t#{s[1]}\t#{id}"
       end
      else
-       no_match.push("#{id}\t#{s[1]}")
+       no_match.add("#{id}\t#{s[1]}")
     end
   end
-  STDERR.puts("\r #{count}")
-=begin
-no_match.each do |object|
-    STDERR.puts(object)
+  log.puts("\r Zugeordnet #{count}")
+  count = 0
+  log.puts("Nicht zugeordnet wurden:")
+  no_match.each do |object|
+    count = count+1
+    log.puts(object)
   end
-=end
+  log.puts("\r Nicht zugeordnet #{count}")
 end
   
