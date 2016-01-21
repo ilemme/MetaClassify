@@ -2,8 +2,11 @@
 
 export PATH=$PATH:/work/gi/software/bin/
 export PATH=$PATH:/work/gi/software/diamond-0.7.9/bin
-export PATH=$PATH:/work/gi/software/lambda/bin
+export PATH=$PATH:/work/gi/software/lambda-v0.9.1/bin
 export PATH=$PATH:/work/gi/studprj/metaclassify/bin
+
+export RUBYLIB=".:$RUBYLIB}"
+
 
 #Librarys used by lambda
 export LD_LIBRARY_PATH=/usr/local/zbhtools/gcc/gcc-5.1.0/lib64/
@@ -19,6 +22,7 @@ export MET='/scratch/gi/studprj/metaclassify/data_sets/Metaphyler/data/'
 export FAC='/scratch/gi/studprj/metaclassify/data_sets/FACS/data/'
 export PHYM='/scratch/gi/studprj/metaclassify/data_sets/PhymmBL/data/'
 export PHYL='/scratch/gi/studprj/metaclassify/data_sets/PhyloPythia/data/'
+export SCR='/scratch/gi/studprj/metaclassify/'
 
 #all aliases
 alias cdMC="cd ${MC}"
