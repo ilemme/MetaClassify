@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Projekt-Plan}{4}{0}{2}
+\beamer@sectionintoc {3}{Methoden}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Vorarbeit}{5}{0}{3}
+\beamer@subsectionintoc {3}{2}{Parser}{6}{0}{3}
+\beamer@sectionintoc {4}{Ergebnisse}{7}{0}{4}
+\beamer@sectionintoc {5}{Fazit und Ausblick}{9}{0}{5}

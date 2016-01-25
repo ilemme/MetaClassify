@@ -15,22 +15,25 @@ else
   begin
     megan = File.open(ARGV[0],"r")
   rescue => err
-    STDERR.puts "Cannot open file #{ARGV[1]}."
+    STDERR.puts "Cannot open file #{ARGV[0]} #{err}."
     exit 1
   end
   
   begin
     gold = File.open(ARGV[1],"r")
   rescue => err
-    STDERR.puts "Cannot open file #{ARGV[0]}."
+    STDERR.puts "Cannot open file #{ARGV[1]} #{err}."
     exit 1
   end
   
   megan.each_line do |line|
-    line=line.chomp!
+    #line_new=line.chomp!
+    #puts line
     s = line.split("\t")
     m_read = s[0]
-    m_taxid = s[1]
+    m_taxid = s[1].chomp!
+    
+    #STDERR.puts "#{m_read}\t#{m_taxid}"
     meganhash[m_read] = m_taxid
   end
 

@@ -3,7 +3,7 @@ require 'set'
 
 USAGE = "Usage: #{$0} dataset.fasta taxid_map.txt logfile.txt"
 
-def parse_carma(fasta, id_to_read_hash)
+def parse_carma_facs(fasta, id_to_read_hash)
   fasta.each_line do |line|
     if line.match(/^>/)
       line_new=line.chomp!
@@ -37,10 +37,31 @@ def parse_phym(fasta, id_to_read_hash)
         exit 1
       end 
       s=line_new.split(" ")
+      s = s[1].split(".")
+      r=read[1]
+      ident= s[0]
+      if not id_to_read_hash.has_key?(ident)
+        id_to_read_hash[ident]= Array.new
+      end
+      id_to_read_hash[ident].push(r)
+    end
+  end
+end
+
+def parse_phyl(fasta, id_to_read_hash)
+  fasta.each_line do |line|
+    if line.match(/^>/)
+      line_new=line.chomp!
+      read=line_new.match(/^>(r\d+)/)
+      if read.nil?
+        STDERR.puts "No Match for #{read} found"
+        exit 1
+      end 
+      s=line_new.split(" ")
       #Fur phymmbl s = s[1].split(".")
       r=read[1]
       ident= s[1]
-     #puts ident, r
+      #puts ident, r
       if not id_to_read_hash.has_key?(ident)
         id_to_read_hash[ident]= Array.new
       end
@@ -114,7 +135,7 @@ else
  begin
    log = File.open(ARGV[2],"w")
  rescue => err
-   STDERR.puts "Cannot open file the-log-file}."
+   STDERR.puts "Cannot open file the-log-file\n=> #{err}."
    exit 1
  end
  
@@ -126,12 +147,14 @@ else
   end
   
   if path.match(/(Carma)|(FACS)/)
-    parse_carma(fasta,id_to_read_hash)
+    parse_carma_facs(fasta,id_to_read_hash)
     
-  elsif path.match(/(PhymmBL)|(PhyloPythia)/)
+  elsif path.match(/PhymmBL/)
     parse_phym(fasta, id_to_read_hash)
-    #Phym_id_taxid.txt muss noch ueberarbeitet werden 
-    #["NC_003212", "1"]      272626
+                  
+  elsif path.match(/PhyloPythia/)  
+    parse_phyl(fasta, id_to_read_hash)
+    
   elsif path.match(/Metaphyler/)
     parse_met(fasta, id_to_read_hash) 
   elsif path.match(/RAIphy/)
@@ -156,10 +179,27 @@ else
         count=count+1
         puts "#{r}\t#{s[1]}\t#{id}"
       end
-     else
+      
+      
+      id_to_read_hash.delete(id)
+      
+      
+    else
        no_match.add("#{id}\t#{s[1]}")
     end
   end
+  
+  
+  if not id_to_read_hash.empty?
+    STDERR.puts "Some Seqs aus Fastafile wurden nicht zugeordnet"
+    log.puts " Seq aus Fasta: "
+    id_to_read_hash.each_pair do |key, value|
+      value.each do |read|
+        log.puts "#{read}\t#{key}"
+      end
+    end
+  end
+    
   log.puts("\r Zugeordnet #{count}")
   count = 0
   log.puts("Nicht zugeordnet wurden:")
