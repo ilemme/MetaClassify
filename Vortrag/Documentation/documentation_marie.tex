@@ -229,6 +229,8 @@
         \end{enumerate}
     \subsection{Methoden}
       \subsubsection{Vorarbeit}
+      Bevor die Ausgaben mit den Programmen Diamond und Lambda erzeugt werden konnten, mussten einige Schritte im Vorhinein durchgef"urht werden. Zun"achst wurden mithilfe des $"$Vorlagepaper$"$ \cite{bazinet2012} die zu verwendenden Datens"atze ausgew"ahlt (siehe Kapitel 2.1.1). Einige Datens"atze waren auf mehrere Fasta-Dateien aufgeteilt worden. Da die Programme Diamond und Lambda in ihrem Aufruf nur eine Anfragesequenzdatei erlauben, mussten aus diesem Grund die zu einem Datensatz geh"origen Fasta-Dateien zu einer konkatiniert werden. \newline
+      Ein weiteres Problem, welches sich ergab 
       \subsubsection{Programmausgabe}
       \subsubsection{Megan}
       \subsubsection{Newick}
@@ -441,18 +443,16 @@
       \end{table}    
   \newpage 
   \section{Diskussion}
-    Lambda und Diamond sind Programme, die eine Alternative zu dem 					Alignierprogramm BlastX \cite{altschul1990} darstellen sollen 					\cite{hauswedell2014, buchfink2014}. F"ur eine erste Quantifizierung 			dieser
+    Lambda \cite{hauswedell2014} und Diamond \cite{buchfink2014} sind 				Programme, die eine Alternative zu dem Alignierprogramm BlastX 		    		\cite{altschul1990} darstellen sollen. F"ur die Quantifizierung dieser
     Aussage wurden im Rahmen dieses Projektes beide Programme miteinander
-    verglichen. Angelehnt war der Vergleich auf der Arbeit von Bazinet 				und Cummings, 2012 \cite{bazinet2012}. Die Versuche wurden mit
+    verglichen. Angelehnt war der Vergleich auf der Arbeit von Bazinet 				\textit{et al.}, 2012 \cite{bazinet2012}. Die Versuche wurden mit
     den gleichen Datensets durchgef"uhrt, die auch im "Vorlagepaper" 
-    verwendet wurden. Es wird jedoch nicht angegeben, wie die Autoren 				vorgegangen sind um die Pr"azision, Sensitivit"at und das 						Laufzeitverhalten der von ihnen
-    untersuchten Programme zu berechnen. Aus diesem Grund wurde in diesem 			Projekt eine eigene L"osung der Berechnung der Genauigkeit und des 
-    Laufzeitverhaltens der Programme Lambda und Diamond erstellt. Die 				Ergebnisse lassen sich demnach nicht direkt mit den Ergebnissen von 			Bazinet und Cummings vergleichen. Es wurde entschieden, dass die 				Ergebnisse dieses Projektes unabh"angig vom "Vorlagepaper" betrachtet 			werden.
-    \subsection{Distanzverteilung, Sensitivit"at und Pr"azision} 
-      Die Ergebnisse bez"uglich der Distanzverteilung, Sensitivit"at und 
-      Pr"azision zeigen, dass Diamond genauer ist als Lambda. Diamond 				  aligniert
-      bei allen Datensets (bis auf PhymmBL und Metaphyler) den Gro{\ss}teil
-      der untersuchten Reads mit den dem Gold-Standart entsprechenden 				  Sequenzen (Distanz von 0) und ist zudem f"ur die Datensets Carma, FACS 		  und PhyloPythia deutlich sensitiver und pr"aziser als Lambda.            
+    verwendet wurden. Im "Vorlagepaper" wird jedoch nicht angegeben, wie die 		Autoren vorgegangen sind um die Pr"azision, Sensitivit"at und das 				Laufzeitverhalten der von ihnen
+    untersuchten Programme zu berechnen. Aus diesem Grund wurde in diesem 			Projekt eine eigene L"osung der Berechnung der Genauigkeit der Programme 		Lambda und Diamond erstellt. Die Ergebnisse lassen sich demnach nicht
+    direkt mit den Ergebnissen des "Vorlagepapers" vergleichen. Aus diesem
+    Grund wurde entschieden, dass die Ergebnisse dieses Projektes 
+    unabh"angig vom "Vorlagepaper" betrachtet werden.
+    \subsection{Distanzverteilung, Sensitivit"at und Pr"azision}      
     
     \newpage
     \newpage
@@ -476,24 +476,21 @@
       Buchfink B., Xie C., Huson D.H.
 	  Fast and sensitive protein alignment using DIAMOND. Nat. Methods 				  2014;12:59-60.
 	  
-	  \bibitem{dethlefsen2008} L. Dethlefsen, S. Huse, M. L. Sogin, and D. A. 	      Relman. The pervasive effects of an
-	  antibiotic on the human gut microbiota, as revealed by deep 16S rRNA 			  sequencing. PLoS Biol., 6:e280, Nov 2008.
-	  
 	  \bibitem{GerlachStoye2011}
 	  Gerlach W, Stoye J: Taxonomic classification of metagenomic shotgun 			  sequences with CARMA3. Nucleic Acids Res 2011, 39(14):e91. 					  10.1093/nar/gkr225
   
 	  \bibitem{handelsman1998} 
-      Jo Handelsman, Michelle R. Rondon, Sean F. Brady, Jon Clardy and Robert   	  M.Goodman. \textit{Molecular biological access to the chemistry of 			  unknown soil microbes: a new frontier for natural products}. Chemistry 		  \& Biology, 5(10): 245-249, 1998.
+      Jo Handelsman, Michelle R. Rondon, Sean F. Brady, Jon Clardy and Robert   	  M.Goodman. \textit{Molecular biological access to the chemistry of 			  unknown soil microbes: a new frontier for natural products}. Chemistry \& 	  Biology, 5(10): 245-249, 1998.
       
       \bibitem{hauswedell2014}
-      Lambda: the local aligner for massive biological data; Hannes 				  Hauswedell, Jochen Singer, Knut Reinert; Bioinformatics 2014 30 (17): 		  i349-i355; doi: 10.1093/bioinformatics/btu439
+      Lambda: the local aligner for massive biological data; Hannes Hauswedell, 	  Jochen Singer, Knut Reinert; Bioinformatics 2014 30 (17): i349-i355; doi: 	  10.1093/bioinformatics/btu439
       
       \bibitem{huson2011}
        Daniel H Huson, Suparna Mitra, Nico Weber, Hans-Joachim Ruscheweyh, and 	   Stephan C Schuster. Integrative analysis of environmental sequences 			   using MEGAN4. Genome Research, 21:1552–1560, 2011.
       
       
       \bibitem{Liu2010}
-	  Liu B, Gibbons T, Ghodsi M, Pop M: MetaPhyler: Taxonomic profiling for 		  metagenomic sequences. In IEEE International Conference on 					  Bioinformatics and Biomedicine (BIBM). , Hong Kong; 2010:95–100.
+	  Liu B, Gibbons T, Ghodsi M, Pop M: MetaPhyler: Taxonomic profiling for 		  metagenomic sequences. In IEEE International Conference on Bioinformatics 	  and Biomedicine (BIBM). , Hong Kong; 2010:95–100.
 	  
 	  \bibitem{nalbantoglu2011}
 	  Nalbantoglu OU, Way SF, Hinrichs SH, Sayood K: RAIphy: phylogenetic 			  classification of metagenomics samples using iterative refinement of 			  relative abundance index profiles. BMC Bioinf 2011, 12: 41. 					  10.1186/1471-2105-12-41
@@ -505,7 +502,9 @@
 	  \bibitem{stranneheim2010}
 	  Stranneheim H, Kaller M, Allander T, Andersson B, Arvestad L, Lundeberg 		  J: Classification of DNA sequences using Bloom filters. Bioinformatics 		  2010, 26(13):1595–1600. 10.1093/bioinformatics/btq230
 	  
-	  	 
+	  	  \bibitem{dethlefsen2008} L. Dethlefsen, S. Huse, M. L. Sogin, and D. A. Relman. The pervasive effects of an
+antibiotic on the human gut microbiota, as revealed by deep 16S rRNA sequencing.
+PLoS Biol., 6:e280, Nov 2008.
 	  
 
     \end{thebibliography}
