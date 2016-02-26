@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-#programm kann nur im Ordner /work/gi/software/taxtree ausgefuehrt werden
+#programm kann nur im Ordner /work/gi/software/taxtree ausgefuehrt werden(sonst Probleme mit newick-parser)
 #derzeit pfad der maps in verkleinerte maps veraendert -> weniger Laufzeit vorerst
 #vorher manuell programmoutputs erstellen und megan read taxid file erstellen und in 
 #  lambda_megan = "/scratch/gi/studprj/metaclassify/lambda_output/megan_lambda"
@@ -210,12 +210,12 @@ def one_step(paths)
             print"                                                                        \r"
             puts "Done with Carma!\n"
           elsif path.match(/(FACS)/)
-            seq_count =parse_carma_facs(fasta,id_to_read, seq_count) 
+            seq_count = parse_carma_facs(fasta,id_to_read, seq_count) 
             search_gi_num(id_to_tax, gi_mapfile.to_s, id_to_read)
-            megan(diamond_megan, "fac", id_to_tax)
+            megan(diamond_megan, "facs", id_to_tax)
             newick("fac_output_diamond.txt")
             calculate("fac_output_diamond.txt",seq_count)
-            megan(lambda_megan, "fac", id_to_tax)
+            megan(lambda_megan, "facs", id_to_tax)
             newick("fac_output_lambda.txt")
             calculate("fac_output_lambda.txt",seq_count)
             print"                                                                        \r"
@@ -573,4 +573,4 @@ testsets = ["/scratch/gi/studprj/metaclassify/data_sets/Carma/data","/scratch/gi
 #database = ["/scratch/gi/studprj/metaclassify/data_base/database_SwissProt"]
 
 one_step(testsets)
-puts "Done! All statistics can be found in /work/gi/studprj/metaclassify"
+puts "Done! All statistics can be found in /work/gi/studprj/metaclassify\n before you run this prog again, please remove calc-files first"
